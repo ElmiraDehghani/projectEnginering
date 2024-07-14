@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header class="container my-4">
+    <div class="row me-0 ">
+        <div class="col d-lg-flex  justify-content-around d-none">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#ace685" class="bi bi-check-square-fill" viewBox="0 0 16 16">
+                    <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm10.03 4.97a.75.75 0 0 1 .011 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.75.75 0 0 1 1.08-.022z"/>
+                </svg>
+                <small>example@gmail.com</small>
+            </span>
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#ace685" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                </svg>
+                <small>(406) 555-0120</small>
+            </span>
+        </div>
+        <div class="col d-flex justify-content-center ms-5">
+          <div class="d-flex ">
+            <div class=" me-2 circle-small d-flex justify-content-center align-items-center bg-blue rounded-circle">
+              <svg fill="#fff" height="20px" width="20px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M26.9,15.7C26.8,15.3,26.4,15,26,15h-6l3.9-11.7c0.1-0.4,0-0.9-0.4-1.1c-0.4-0.3-0.8-0.2-1.2,0l-17,13 c-0.3,0.3-0.5,0.7-0.3,1.1C5.2,16.7,5.6,17,6,17h6L8.1,28.7c-0.1,0.4,0,0.9,0.4,1.1C8.6,29.9,8.8,30,9,30c0.2,0,0.4-0.1,0.6-0.2 l17-13C26.9,16.5,27.1,16.1,26.9,15.7z"></path> </g></svg>              
+            </div>
+            <div>
+              <h5><span class="text-green">So</span>lar.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col d-lg-flex justify-content-end d-none">
+            <div class="svg-header text-center rounded-circle mx-1 shadow " >    
+                <svg fill="#fdfdfd" width="25px" height="64px" viewBox="0 0 38 95" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"></path></g></svg> 
+            </div>
+            <div class="svg-header text-center rounded-circle mx-1 shadow  "> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="#fdfdfd" class="" viewBox="0 0 16 23">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                </svg>
+            </div>
+          
+            <div class="svg-header text-center rounded-circle mx-1 shadow  ">   
+                <svg fill="#fdfdfd" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="64px" viewBox="0 0 521 1750" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="7935ec95c421cee6d86eb22ecd12951c"> <path style="display: inline;" d="M220.646,338.475C207.223,408.825,190.842,476.269,142.3,511.5 c-14.996-106.33,21.994-186.188,39.173-270.971c-29.293-49.292,3.518-148.498,65.285-124.059 c76.001,30.066-65.809,183.279,29.38,202.417c99.405,19.974,139.989-172.476,78.359-235.054 C265.434-6.539,95.253,81.775,116.175,211.161c5.09,31.626,37.765,41.22,13.062,84.884c-57.001-12.65-74.005-57.6-71.822-117.533 c3.53-98.108,88.141-166.787,173.024-176.293c107.34-12.014,208.081,39.398,221.991,140.376 c15.67,113.978-48.442,237.412-163.23,228.529C258.085,368.704,245.023,353.283,220.646,338.475z"> </path> </g> </g></svg>
+            </div >
+            <div class="svg-header text-center rounded-circle mx-2 shadow ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fdfdfd" class="bi bi-instagram" viewBox="0 0 16 23">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                </svg>
+            </div>
+            <div class="svg-header text-center rounded-circle mx-1 shadow "> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fdfdfd" class="bi bi-youtube" viewBox="0 0 16 23">
+                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-light  bg-gray">
+    <div class="container">
+        <svg width="20px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M22 22L20 20" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Servises</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <small class="btn bg-blue  rounded-pill text-white px-4">
+       Get A Quote
+        </small>
+      </div>
+    </div>
+  </nav>
+  <section class="container my-sm-5 my-3">
+    <div class="row ">  
+      <div class="col-md-6 d-flex flex-column justify-content-center py-4">
+        <small class="text-date mb-3">-  SINCE 2024</small>
+        <h1 >Greening Our Future:</h1>
+        <h1 class="text-green">Renewable Energy</h1>
+        <p class="py-lg-3 py-2 w-75"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+          eiusmod tempor incididunt ut labore et doiore.
+        </p>
+        <div class="d-flex  ">
+          <div class="btn bg-green rounded-pill text-white me-lg-5 me-3  font-lg"> Explore More
+          <svg fill="#ffffff" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M17.707,17.707a1,1,0,0,1-1.414-1.414L19.586,13H2a1,1,0,0,1,0-2H19.586L16.293,7.707a1,1,0,0,1,1.414-1.414l5,5a1,1,0,0,1,0,1.414Z"></path></g></svg>
+          </div>
+          <div class="btn py-2 text-decoration-underline font-lg">View All Servises</div>
+        </div>
+      </div>
+      <div class="col-md-6 position-relative py-4">
+        <img class="w-100 round-25 img-cut img-lg" src="./img/wonan.webp" height="400px" alt="">
+       <div class="p-1 bg-gray box-bg-circle d-lg-block d-none">
+          <div class="coreText rounded-circle position-absolute bg-green p-2"><svg fill="#fdfdfd" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="16px" viewBox="0 0 414.339 414.339" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M408.265,162.615L230.506,58.601c-3.795-2.222-8.485-2.241-12.304-0.057c-3.815,2.187-6.17,6.246-6.174,10.644 l-0.036,46.966c-0.213,0.052-0.38,0.094-0.495,0.126c-4.442,1.239-9.163,2.603-14.854,4.294 c-18.457,5.483-37.417,12.593-59.668,22.374c-19.309,8.487-38.201,19.442-56.15,32.559c-12.826,9.373-24.894,20.182-35.867,32.126 C15.1,240.129-1.259,283.28,0.076,326.023c0.234,7.488,1.076,14.674,1.869,20.716c0.788,6.007,5.84,10.541,11.898,10.677 c0.093,0.002,0.186,0.003,0.277,0.003c5.94,0,11.048-4.263,12.086-10.139c3.304-18.678,8.574-34.022,16.111-46.91 c9.42-16.104,22.223-29.625,37.021-39.102c12.718-8.146,26.153-14.396,41.075-19.113c17.405-5.503,36.597-8.952,58.671-10.545 c8.907-0.644,18.502-0.967,30.2-1.021c0.354,0,1.112,0.007,2.098,0.02l0.032,44.29c0.003,4.372,2.332,8.413,6.113,10.607 c3.782,2.196,8.446,2.214,12.245,0.049l178.37-101.678c3.811-2.172,6.172-6.21,6.196-10.597 C414.366,168.896,412.05,164.831,408.265,162.615z"></path> </g> </g></svg></div> 
+          <div class="bg-circle  text-white"><p class="text-circle">GET IN TOUCH . GET IN TOUCH .</p></div> 
+        </div>
+      </div>
+    </div>
+  </section>
+  <Section class="bg-blue  my-5 ">
+    <div class="row text-gray container mx-auto p-2 ">
+
+      <div class="col-md-4 d-flex justify-content-center align-items-center py-md-4 py-sm-3 py-2">
+        <div class="me-lg-4 me-sm-3 me-2 bg-icon" dir="rtl">
+          <svg width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"/>
+          </svg>       
+        </div> 
+        <div class="line-h"><h5 class="fs-sm-5 fs-6">Eco Friendly</h5><small class="opacity small-lg">Environment Sustainable Products</small></div>
+      </div>
+
+      <div class="col-md-4 d-flex justify-content-center align-items-center py-md-4 py-sm-3 py-2">
+        <div class="me-lg-4 me-sm-3 me-2 bg-icon" dir="rtl">
+          <svg width="32" height="32" fill="#fdfdfd"   viewBox="0 0 16 16">
+            <path d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"/>
+            <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm13 2v2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1M2 14a1 1 0 0 1-1-1V6h14v7a1 1 0 0 1-1 1z"/>
+          </svg>      
+        </div> 
+        <div class="line-h"><h5 class="fs-sm-5 fs-6">Low Maintenance</h5><small class="opacity small-lg">Effortless upkeep solution.</small> </div>
+      </div>
+
+      <div class="col-md-4 d-flex justify-content-center align-items-center py-md-4 py-sm-3 py-2">
+        <div class="me-lg-4 me-sm-3 me-2 bg-icon" dir="rtl">
+          <svg class="" width="34" height="34" fill="#fdfdfd"  viewBox="0 0 16 16">
+            <path d="M8 3a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a6 6 0 1 1 12 0v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1V8a5 5 0 0 0-5-5"/>
+          </svg>
+        </div>
+        <div class="line-h"><h5 class="fs-sm-5 fs-6">Affordable Price</h5><small class="opacity small-lg">Budeg-Friendly Cost</small></div>
+      </div>
+     
+    </div>
+
+  </Section>
+  <section class="container my-lg-5 my-4">
+    <div class="row  py-lg-5 py-sm-4 py-3">
+      <div class="col-md-6 position-relative d-flex justify-content-center" >
+        <img class="  round-25 img-dubble-cut img-xl " src="./img/tows.jpg" alt="" width="430px"height="530px" >
+      
+        <div class="ms-5 mb-xl-4 mb-1 px-xxl-5 px-4 d-lg-flex d-none  flex-wrap text-img justify-content-center w-75">
+          <small class="px-3 py-1">Solar Panels</small>
+          <small class="px-3 py-1">Wind Turbines</small>
+          <small class="px-3 py-1">Energy</small>
+          <small class="px-3 py-1" >Hydropower Plants</small>
+          <small class="px-3 py-1">Maintanance</small>
+        </div>
+      </div>
+      <div class="col-md-6  d-flex flex-column justify-content-center  py-md-5 py-sm-4 py-3">
+        <small class="text-date mb-3">-  ABOUT US</small>
+        <h1>Empowering a</h1>
+        <h1 class="text-green">Sustainable Future</h1>
+        <p class="py-lg-3 py-2 w-75"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+          eiusmod tempor incididunt ut labore et doiore.
+        </p>
+        <div class="row">
+          <div class="col-4 border-end">
+            <h4 class="fs-lg-4 fs-sm-5 ">1500+</h4>
+            <small class="opacity"> Project<br> Completed </small>
+          </div>
+          <div class="col-4 border-end ps-4">
+            <h4 class="fs-lg-4 fs-sm-5 ">750+</h4>
+            <small class="opacity"> Happy<br> Customer </small>
+          </div>
+          <div class="col-4 ps-4">
+            <h4 class="fs-lg-4 fs-sm-5">99+</h4>
+            <small class="opacity "> Satisfied<br> Customer </small>
+          </div>
+        </div>
+        <div class="py-lg-4  small-sm py-3">
+          <span class="font">Jenny Mexander</span>
+          <div class=""> Jenney Alexander . CEO</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class=" bg-gray my-sm-5 my-3">
+    <div class="container  text-center py-6">
+      <small class="text-date mb-3">-   OUR SERVISES</small>
+      <h1>Servises <span class="text-green">Sustainable Energy</span></h1>
+      <div class="row mt-5  ">
+        <div class="  col-md-4 p-2   img-cut round-25  " >
+          <div class="card border-0 round-25  border-green">
+            <img src="./img/images (7).jfif" class="card-img-top round-25-top img-lg-card  position-relative"height="200px" alt="...">
+            <div class="d-lg-block d-none bg-blue position-absolute rounded-circle b-round-img text-center p-3 align-icon-img">               
+              <svg fill="#fdfdfd" width="30px" height="30px" viewBox="0 0 32 32" id="OBJECT" xmlns="http://www.w3.org/2000/svg" stroke="#fdfdfd"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title></title><path d="M26,25H19.77V23h-2v2h-4V23h-2v2H6a1,1,0,0,0,0,2H26a1,1,0,0,0,0-2Z"></path><polygon points="20.5 15 19.43 11 12.57 11 11.5 15 20.5 15"></polygon><polygon points="10.5 11 3.53 11 2.39 15 9.43 15 10.5 11"></polygon><polygon points="22.57 15 29.61 15 28.47 11 21.5 11 22.57 15"></polygon><polygon points="10.96 17 9.89 21 22.11 21 21.04 17 10.96 17"></polygon><polygon points="17.82 5 14.18 5 13.11 9 18.89 9 17.82 5"></polygon><path d="M31,19.73,30.18,17H23.11l1.07,4H30a1,1,0,0,0,.8-.4A1,1,0,0,0,31,19.73Z"></path><path d="M27.9,9,27,5.73A1,1,0,0,0,26,5H19.89L21,9Z"></path><path d="M8.89,17H1.82L1,19.73a1,1,0,0,0,.16.87A1,1,0,0,0,2,21H7.82Z"></path><path d="M12.11,5H6a1,1,0,0,0-1,.73L4.1,9H11Z"></path></g></svg>
+              </div>
+            <div class="text-start mt-lg-5 mt-4  px-4  mb-4">
+              <h5 class="fs-lg-5 fs-6">Solar Panels Solution</h5>
+              <p class="text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class=" btn p-0 text-green">Learn more
+                <svg class="svg-lg" fill="#98df3b" width="30px" height="30px" viewBox="0 0 24 24" id="right-direction-3" xmlns="http://www.w3.org/2000/svg" class="icon line"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M3,12H16m4.62-.67L17.5,9.25a1,1,0,0,0-1.5.67v4.16a1,1,0,0,0,1.5.67l3.12-2.08A.79.79,0,0,0,20.62,11.33Z" style="fill: none; stroke: #98df3b; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"></path></g></svg>
+              </a>
+            </div>
+            </div>
+        </div>
+        <div class=" col-md-4 p-2   img-cut round-25" >
+          <div class="card border-0 round-25">
+            <img src="./img/tur.jpg" class="card-img-top round-25-top img-lg-card " height="200px" alt="...">
+            <div class="d-lg-block d-none bg-blue position-absolute rounded-circle b-round-img text-center p-3 align-icon-img">           
+              <svg fill="#fdfdfd" width="30px" height="30px" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="#fdfdfd"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M15.8125 0.15625C15.460938 0.15625 15.121094 0.238281 14.8125 0.375C10.972656 2.105469 13.859375 13.183594 17.5625 22.28125C17.925781 18.507813 21.132813 15.53125 25 15.53125C26.621094 15.53125 28.117188 16.085938 29.34375 16.96875C29.351563 16.972656 29.367188 16.964844 29.375 16.96875C25.511719 9.15625 19.695313 0.15625 15.8125 0.15625 Z M 29.375 16.96875C31.238281 18.324219 32.46875 20.523438 32.46875 23C32.46875 26.023438 30.652344 28.640625 28.0625 29.8125C30.074219 29.941406 32.054688 30.03125 33.9375 30.03125C38.546875 30.03125 49.308594 29.574219 49.71875 25.5C50.140625 21.316406 39.101563 18.3125 29.375 16.96875 Z M 28.0625 29.8125C28.042969 29.820313 28.019531 29.804688 28 29.8125C27.078125 30.222656 26.070313 30.46875 25 30.46875C20.886719 30.46875 17.53125 27.113281 17.53125 23C17.53125 22.753906 17.570313 22.519531 17.59375 22.28125C12.148438 30.453125 7.054688 40.730469 10.46875 43.1875C10.894531 43.492188 11.414063 43.65625 12 43.65625C15.9375 43.65625 23.066406 36.238281 28.0625 29.8125 Z M 25 17.5C21.96875 17.5 19.5 19.96875 19.5 23C19.5 26.03125 21.96875 28.5 25 28.5C28.03125 28.5 30.5 26.03125 30.5 23C30.5 19.96875 28.03125 17.5 25 17.5 Z M 25 20.5C26.378906 20.5 27.5 21.617188 27.5 23C27.5 24.382813 26.378906 25.5 25 25.5C23.617188 25.5 22.5 24.382813 22.5 23C22.5 21.617188 23.617188 20.5 25 20.5 Z M 28.5 32.625C26.574219 35.011719 23.871094 38.164063 21 40.78125L20.3125 48.90625C20.289063 49.183594 20.371094 49.449219 20.5625 49.65625C20.753906 49.863281 21.03125 50 21.3125 50L28.6875 50C28.964844 50 29.21875 49.859375 29.40625 49.65625C29.59375 49.453125 29.707031 49.183594 29.6875 48.90625Z"></path></g></svg>
+            </div>
+            <div class="text-start pt-lg-5 pt-4 px-4 mb-4">
+              <h5 class="fs-lg-5 fs-6">Wind Turbine Servises</h5>
+              <p class="text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn p-0">Learn more
+                <svg fill="#303030"  class="svg-lg" width="30px" height="30px" viewBox="0 0 24 24" id="right-direction-3" xmlns="http://www.w3.org/2000/svg" class="icon line" stroke="#303030"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M3,12H16m4.62-.67L17.5,9.25a1,1,0,0,0-1.5.67v4.16a1,1,0,0,0,1.5.67l3.12-2.08A.79.79,0,0,0,20.62,11.33Z" style="fill: none; stroke: #303030; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"></path></g></svg>            
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class=" col-md-4 p-2 round-25 img-cut" >
+          <div class="card  border-0  round-25">
+          <img src="./img/hy.webp" class="card-img-top round-25-top img-lg-card " height="200px" alt="...">
+          <div class="d-lg-block d-none bg-blue position-absolute rounded-circle b-round-img text-center p-3 align-icon-img">            
+            <svg width="30px" height="30px" viewBox="0 0 1024 1024" fill="#fdfdfd" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#fdfdfd"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M183.571582 490.013671h6.193297a325.271967 325.271967 0 0 0 64.162559 140.092382l-72.957041 73.080906a100.703012 100.703012 0 0 0 142.321969 0l4.335308-4.335308a325.024235 325.024235 0 0 0 32.205145 19.199222 146.533411 146.533411 0 0 1 122.255686 25.516384l35.301794 26.755044 35.301794-26.755044a146.409545 146.409545 0 0 1 112.34641-27.622105 327.501554 327.501554 0 0 0 47.812254-31.338084l71.099052 71.099051 10.404739-7.92742a100.579146 100.579146 0 0 0-8.54675-132.536559l-4.335308-4.335308a324.900369 324.900369 0 0 0 53.757819-144.303824h103.180331a100.703012 100.703012 0 0 0-100.703012-100.703012h-6.193297a325.271967 325.271967 0 0 0-64.286425-140.092382l72.957041-72.95704a100.703012 100.703012 0 0 0-142.321969 0l-4.335308 4.335308a324.900369 324.900369 0 0 0-144.551556-53.633954V0.371598a100.703012 100.703012 0 0 0-100.703012 100.703012v6.317163a325.395833 325.395833 0 0 0-139.968515 63.79096l-72.957041-72.95704a100.703012 100.703012 0 0 0 0 142.321969l4.335308 4.335308a324.900369 324.900369 0 0 0-53.633953 144.427689H82.86857a100.703012 100.703012 0 0 0 100.703012 100.703012z m76.425287-92.032396a252.19106 252.19106 0 0 1 41.371225-111.479348l21.924272-32.452878 31.214218-24.773188a252.438792 252.438792 0 0 1 108.134968-49.546377l38.522308-7.431957 39.38937 4.58304a252.19106 252.19106 0 0 1 111.479349 41.371225l32.452877 21.924272 24.773189 31.214218a252.438792 252.438792 0 0 1 49.546377 108.134968l7.431957 38.522308-4.58304 39.38937a252.19106 252.19106 0 0 1-41.371225 111.479349l-21.924272 32.452877-31.214218 24.773189a252.438792 252.438792 0 0 1-108.134968 49.546377l-38.522309 7.431957-39.38937-4.58304a252.19106 252.19106 0 0 1-111.479348-41.371225l-32.700609-21.924272-24.773189-31.214218a252.438792 252.438792 0 0 1-49.546377-108.134968l-7.431957-38.522309zM517.514165 1023.999752A108.878164 108.878164 0 0 1 451.617483 1001.951614l-37.159783-27.869837a34.80633 34.80633 0 0 0-41.866689 0l-37.159783 27.869837a109.373628 109.373628 0 0 1-131.669497 0l-37.159783-27.869837a34.80633 34.80633 0 0 0-41.866689 0l-48.059986 36.416587A37.17217 37.17217 0 1 1 31.711936 951.290444l48.059986-36.416588a109.373628 109.373628 0 0 1 131.669497 0l37.159783 27.869838a34.80633 34.80633 0 0 0 41.866689 0l37.159783-27.869838a109.373628 109.373628 0 0 1 131.669497 0l37.159783 27.869838a34.80633 34.80633 0 0 0 41.866689 0l37.159783-27.869838a109.373628 109.373628 0 0 1 131.669498 0l37.159783 27.869838a34.80633 34.80633 0 0 0 41.866688 0l37.159783-27.869838a109.373628 109.373628 0 0 1 131.669498 0l37.159783 27.869838a37.17217 37.17217 0 0 1-44.963337 59.20792l-37.159783-27.869837a34.80633 34.80633 0 0 0-41.866689 0l-37.159783 27.869837a109.373628 109.373628 0 0 1-131.669498 0l-37.159783-27.869837a34.80633 34.80633 0 0 0-41.866688 0l-37.159783 27.869837a108.754298 108.754298 0 0 1-65.64895 22.048138zM517.514165 882.173247A108.878164 108.878164 0 0 1 451.617483 860.125109l-37.159783-27.869837a34.80633 34.80633 0 0 0-41.866689 0l-37.159783 27.869837a109.373628 109.373628 0 0 1-131.669497 0l-37.159783-27.869837a34.80633 34.80633 0 0 0-41.866689 0l-48.059986 36.416588a37.17217 37.17217 0 1 1-44.963337-59.207921l48.059986-36.416588a109.373628 109.373628 0 0 1 131.669497 0l37.159783 27.869838a34.80633 34.80633 0 0 0 41.866689 0l37.159783-27.869838a109.373628 109.373628 0 0 1 131.669497 0l37.159783 27.869838a34.80633 34.80633 0 0 0 41.866689 0l37.159783-27.869838a109.373628 109.373628 0 0 1 131.669498 0l37.159783 27.869838a34.80633 34.80633 0 0 0 41.866688 0l37.159783-27.869838a109.373628 109.373628 0 0 1 131.669498 0l37.159783 27.869838a37.17217 37.17217 0 1 1-44.963337 59.20792l-37.159783-27.869837a34.80633 34.80633 0 0 0-41.866689 0l-37.159783 27.869837a109.373628 109.373628 0 0 1-131.669498 0l-37.159783-27.869837a34.80633 34.80633 0 0 0-41.866688 0l-37.159783 27.869837a108.878164 108.878164 0 0 1-65.64895 22.048138zM515.903907 274.48693h74.319566s14.987779 5.20237-17.836695 44.220142-56.606736 73.700236-56.606736 73.700236h103.18033s-52.023696 70.727454-178.862422 228.037201l76.177555-170.439537h-84.104975s-10.033141 1.114793 4.954638-26.011848 78.283276-149.506193 78.283276-149.506194z"></path></g></svg>          
+          </div>
+          <div class="text-start pt-lg-5 pt-4 px-4 mb-4">
+            <h5 class="fs-lg-5 fs-6">Hydroelectric Power</h5>
+            <p class="text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn p-0">Learn more
+              <svg fill="#303030" class="svg-lg" width="30px" height="30px" viewBox="0 0 24 24" id="right-direction-3" xmlns="http://www.w3.org/2000/svg" class="icon line" stroke="#303030"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M3,12H16m4.62-.67L17.5,9.25a1,1,0,0,0-1.5.67v4.16a1,1,0,0,0,1.5.67l3.12-2.08A.79.79,0,0,0,20.62,11.33Z" style="fill: none; stroke: #303030; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"></path></g></svg>            </a>
+          </div>
+         </div>
+        </div>
+      </div>
+      <div class="row d-none">
+        <div class="col-md-4  position-relative">
+          <div class="bg-white p-2 card-cut ">
+            <img class=" w-100 " src="./img/images (7).jfif" alt="">
+            <div class="bg-blue position-absolute rounded-circle b-round-img text-center p-3 align-icon-img">               
+              <svg fill="#fdfdfd" width="30px" height="30px" viewBox="0 0 32 32" id="OBJECT" xmlns="http://www.w3.org/2000/svg" stroke="#fdfdfd"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title></title><path d="M26,25H19.77V23h-2v2h-4V23h-2v2H6a1,1,0,0,0,0,2H26a1,1,0,0,0,0-2Z"></path><polygon points="20.5 15 19.43 11 12.57 11 11.5 15 20.5 15"></polygon><polygon points="10.5 11 3.53 11 2.39 15 9.43 15 10.5 11"></polygon><polygon points="22.57 15 29.61 15 28.47 11 21.5 11 22.57 15"></polygon><polygon points="10.96 17 9.89 21 22.11 21 21.04 17 10.96 17"></polygon><polygon points="17.82 5 14.18 5 13.11 9 18.89 9 17.82 5"></polygon><path d="M31,19.73,30.18,17H23.11l1.07,4H30a1,1,0,0,0,.8-.4A1,1,0,0,0,31,19.73Z"></path><path d="M27.9,9,27,5.73A1,1,0,0,0,26,5H19.89L21,9Z"></path><path d="M8.89,17H1.82L1,19.73a1,1,0,0,0,.16.87A1,1,0,0,0,2,21H7.82Z"></path><path d="M12.11,5H6a1,1,0,0,0-1,.73L4.1,9H11Z"></path></g></svg>
+              </div>
+              dfhfdhfhghgfhfghfgfghgfdfghjkjhgfghjkjhgghjkhghggfgfghjjkjhgh
+              hhtgtrytrtrtrytytr
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <div class="bg-white  card-cut ">
+            <img class=" w-100 position-absolute  " src="./img/tur.jpg" alt="">
+            <div class="bg-blue  rounded-circle b-round-img text-center p-3 align-icon-img">           
+              <svg fill="#fdfdfd" width="30px" height="30px" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="#fdfdfd"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M15.8125 0.15625C15.460938 0.15625 15.121094 0.238281 14.8125 0.375C10.972656 2.105469 13.859375 13.183594 17.5625 22.28125C17.925781 18.507813 21.132813 15.53125 25 15.53125C26.621094 15.53125 28.117188 16.085938 29.34375 16.96875C29.351563 16.972656 29.367188 16.964844 29.375 16.96875C25.511719 9.15625 19.695313 0.15625 15.8125 0.15625 Z M 29.375 16.96875C31.238281 18.324219 32.46875 20.523438 32.46875 23C32.46875 26.023438 30.652344 28.640625 28.0625 29.8125C30.074219 29.941406 32.054688 30.03125 33.9375 30.03125C38.546875 30.03125 49.308594 29.574219 49.71875 25.5C50.140625 21.316406 39.101563 18.3125 29.375 16.96875 Z M 28.0625 29.8125C28.042969 29.820313 28.019531 29.804688 28 29.8125C27.078125 30.222656 26.070313 30.46875 25 30.46875C20.886719 30.46875 17.53125 27.113281 17.53125 23C17.53125 22.753906 17.570313 22.519531 17.59375 22.28125C12.148438 30.453125 7.054688 40.730469 10.46875 43.1875C10.894531 43.492188 11.414063 43.65625 12 43.65625C15.9375 43.65625 23.066406 36.238281 28.0625 29.8125 Z M 25 17.5C21.96875 17.5 19.5 19.96875 19.5 23C19.5 26.03125 21.96875 28.5 25 28.5C28.03125 28.5 30.5 26.03125 30.5 23C30.5 19.96875 28.03125 17.5 25 17.5 Z M 25 20.5C26.378906 20.5 27.5 21.617188 27.5 23C27.5 24.382813 26.378906 25.5 25 25.5C23.617188 25.5 22.5 24.382813 22.5 23C22.5 21.617188 23.617188 20.5 25 20.5 Z M 28.5 32.625C26.574219 35.011719 23.871094 38.164063 21 40.78125L20.3125 48.90625C20.289063 49.183594 20.371094 49.449219 20.5625 49.65625C20.753906 49.863281 21.03125 50 21.3125 50L28.6875 50C28.964844 50 29.21875 49.859375 29.40625 49.65625C29.59375 49.453125 29.707031 49.183594 29.6875 48.90625Z"></path></g></svg>
+            </div>
+            <p class="z-index-top"> fgfggfghjhfgghjghjhghfghgjghhfghfghfghdfgdfgfgfgfgfdgfdgdfgfdgfdgdfgfd
+             gghghdfgfdgdfgdfgfghghhghhfgh
+             fghgthtfgdfg</p>
+            
+          </div>
+        </div>
+        <div class="col-md-4   position-relative">
+          <div class="bg-white p-2 card-cut ">
+            <img class="w-100 " src="./img/hy.webp" alt="">
+              <div class="bg-blue position-absolute rounded-circle b-round-img text-center p-3 align-icon-img">            
+                <svg width="30px" height="30px" viewBox="0 0 1024 1024" fill="#fdfdfd" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#fdfdfd"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M183.571582 490.013671h6.193297a325.271967 325.271967 0 0 0 64.162559 140.092382l-72.957041 73.080906a100.703012 100.703012 0 0 0 142.321969 0l4.335308-4.335308a325.024235 325.024235 0 0 0 32.205145 19.199222 146.533411 146.533411 0 0 1 122.255686 25.516384l35.301794 26.755044 35.301794-26.755044a146.409545 146.409545 0 0 1 112.34641-27.622105 327.501554 327.501554 0 0 0 47.812254-31.338084l71.099052 71.099051 10.404739-7.92742a100.579146 100.579146 0 0 0-8.54675-132.536559l-4.335308-4.335308a324.900369 324.900369 0 0 0 53.757819-144.303824h103.180331a100.703012 100.703012 0 0 0-100.703012-100.703012h-6.193297a325.271967 325.271967 0 0 0-64.286425-140.092382l72.957041-72.95704a100.703012 100.703012 0 0 0-142.321969 0l-4.335308 4.335308a324.900369 324.900369 0 0 0-144.551556-53.633954V0.371598a100.703012 100.703012 0 0 0-100.703012 100.703012v6.317163a325.395833 325.395833 0 0 0-139.968515 63.79096l-72.957041-72.95704a100.703012 100.703012 0 0 0 0 142.321969l4.335308 4.335308a324.900369 324.900369 0 0 0-53.633953 144.427689H82.86857a100.703012 100.703012 0 0 0 100.703012 100.703012z m76.425287-92.032396a252.19106 252.19106 0 0 1 41.371225-111.479348l21.924272-32.452878 31.214218-24.773188a252.438792 252.438792 0 0 1 108.134968-49.546377l38.522308-7.431957 39.38937 4.58304a252.19106 252.19106 0 0 1 111.479349 41.371225l32.452877 21.924272 24.773189 31.214218a252.438792 252.438792 0 0 1 49.546377 108.134968l7.431957 38.522308-4.58304 39.38937a252.19106 252.19106 0 0 1-41.371225 111.479349l-21.924272 32.452877-31.214218 24.773189a252.438792 252.438792 0 0 1-108.134968 49.546377l-38.522309 7.431957-39.38937-4.58304a252.19106 252.19106 0 0 1-111.479348-41.371225l-32.700609-21.924272-24.773189-31.214218a252.438792 252.438792 0 0 1-49.546377-108.134968l-7.431957-38.522309zM517.514165 1023.999752A108.878164 108.878164 0 0 1 451.617483 1001.951614l-37.159783-27.869837a34.80633 34.80633 0 0 0-41.866689 0l-37.159783 27.869837a109.373628 109.373628 0 0 1-131.669497 0l-37.159783-27.869837a34.80633 34.80633 0 0 0-41.866689 0l-48.059986 36.416587A37.17217 37.17217 0 1 1 31.711936 951.290444l48.059986-36.416588a109.373628 109.373628 0 0 1 131.669497 0l37.159783 27.869838a34.80633 34.80633 0 0 0 41.866689 0l37.159783-27.869838a109.373628 109.373628 0 0 1 131.669497 0l37.159783 27.869838a34.80633 34.80633 0 0 0 41.866689 0l37.159783-27.869838a109.373628 109.373628 0 0 1 131.669498 0l37.159783 27.869838a34.80633 34.80633 0 0 0 41.866688 0l37.159783-27.869838a109.373628 109.373628 0 0 1 131.669498 0l37.159783 27.869838a37.17217 37.17217 0 0 1-44.963337 59.20792l-37.159783-27.869837a34.80633 34.80633 0 0 0-41.866689 0l-37.159783 27.869837a109.373628 109.373628 0 0 1-131.669498 0l-37.159783-27.869837a34.80633 34.80633 0 0 0-41.866688 0l-37.159783 27.869837a108.754298 108.754298 0 0 1-65.64895 22.048138zM517.514165 882.173247A108.878164 108.878164 0 0 1 451.617483 860.125109l-37.159783-27.869837a34.80633 34.80633 0 0 0-41.866689 0l-37.159783 27.869837a109.373628 109.373628 0 0 1-131.669497 0l-37.159783-27.869837a34.80633 34.80633 0 0 0-41.866689 0l-48.059986 36.416588a37.17217 37.17217 0 1 1-44.963337-59.207921l48.059986-36.416588a109.373628 109.373628 0 0 1 131.669497 0l37.159783 27.869838a34.80633 34.80633 0 0 0 41.866689 0l37.159783-27.869838a109.373628 109.373628 0 0 1 131.669497 0l37.159783 27.869838a34.80633 34.80633 0 0 0 41.866689 0l37.159783-27.869838a109.373628 109.373628 0 0 1 131.669498 0l37.159783 27.869838a34.80633 34.80633 0 0 0 41.866688 0l37.159783-27.869838a109.373628 109.373628 0 0 1 131.669498 0l37.159783 27.869838a37.17217 37.17217 0 1 1-44.963337 59.20792l-37.159783-27.869837a34.80633 34.80633 0 0 0-41.866689 0l-37.159783 27.869837a109.373628 109.373628 0 0 1-131.669498 0l-37.159783-27.869837a34.80633 34.80633 0 0 0-41.866688 0l-37.159783 27.869837a108.878164 108.878164 0 0 1-65.64895 22.048138zM515.903907 274.48693h74.319566s14.987779 5.20237-17.836695 44.220142-56.606736 73.700236-56.606736 73.700236h103.18033s-52.023696 70.727454-178.862422 228.037201l76.177555-170.439537h-84.104975s-10.033141 1.114793 4.954638-26.011848 78.283276-149.506193 78.283276-149.506194z"></path></g></svg>          
+              </div>
+              gdfhdfhgdfggdgffdffvdfgfgfgfghhjkklukjhgfdfghjkl;lkjhgfdfjkl;';lkjhgffghjkl
+              jhgfdghjkllkjhgfhlkjhg'
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container my-sm-5 my-3 ">
+    <div class="row ">
+      <div class="col-6 py-sm-5 py-2">
+        <small class="text-date text-date-md mb-3">-  WHY CHOOSE US</small>
+        <h1 class="h-md">Why Choose Our <br> 
+          <span class="text-green">Green Energy Solution</span></h1>
+      
+      
+      </div>
+      <div class="col-6 d-flex justify-content-end  align-items-center py-sm-5 py-2 ">
+        <div> 
+          <a  class="bg-green text-white round-25 px-4 btn py-2">Get A Quote</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row pb-md-5 pb-0 mt-md-0 mt-3">
+      <div class="col-md-6 d-flex justify-content-center">
+        <img src="./img/toww.jpg" class="round-25 cut-dubble-reverse img" width="400px" height="350px" alt="">
+      </div>
+      <div class="col-md-6 ">
+        <div class="row mx-auto py-4">
+          <div class="col-6 col-md-6 ">
+            <svg class="svg-lg-larg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 511.998 511.998" xml:space="preserve" width="45px" height="45px" fill="#336363" transform="matrix(1, 0, 0, 1, 0, 0)" stroke="#336363" stroke-width="12.287952"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#336363;" d="M156.747,488.732c-9.848,0-24.224-4.823-56.16-40.563c-16.231-18.165-29.533-36.035-30.091-36.787 c-0.376-0.507-0.717-1.036-1.023-1.587c-6.073-10.932-9.283-23.321-9.283-35.827v-90.892c0-7.925,6.424-14.35,14.35-14.35h116.075 c16.624,0,32.305,6.421,44.155,18.082l59.433,58.485c8.383,8.382,12.955,19.419,12.955,31.159s-4.572,22.777-12.873,31.078 c-17.234,17.231-45.115,17.231-62.253,0.095l-59.37-59.372c-5.898-0.044-15.48-0.089-23.134-0.123l-10.82-0.052 c-7.925-0.042-14.317-6.499-14.275-14.424c0.042-7.899,6.457-14.275,14.348-14.275c0.026,0,0.05,0,0.076,0l10.802,0.052 c6.79,0.03,14.055,0.065,19.632,0.099c2.814,0.019,5.202,0.036,6.891,0.056c4.177,0.047,8.495,0.095,12.659,4.259l63.486,63.486 c5.946,5.948,15.624,5.948,21.569,0c2.976-2.976,4.563-6.806,4.563-10.88c0-4.074-1.586-7.904-4.467-10.784l-59.353-58.403 c-6.447-6.344-14.98-9.838-24.026-9.838H88.889v76.542c0,7.337,1.808,14.608,5.236,21.088c2.615,3.468,13.585,17.858,26.469,32.423 c25.476,28.797,35.211,32.208,36.504,32.554l155.149-0.03c10.576,0,22.902-5.538,34.621-11.21 c9.893-4.786,83.334-54.602,127.303-84.877c0.24-0.165,0.485-0.323,0.735-0.474c8.199-4.939,10.853-15.631,5.915-23.833 c-2.392-3.972-6.189-6.774-10.69-7.892c-4.417-1.096-8.99-0.442-12.912,1.842l-107.184,71.082c-6.605,4.379-15.51,2.576-19.89-4.028 c-4.379-6.605-2.576-15.509,4.028-19.89l107.483-71.28c0.174-0.115,0.349-0.227,0.528-0.333 c21.76-13.104,50.119-6.063,63.223,15.694c13.019,21.622,6.147,49.766-15.287,62.975c-13.295,9.152-115.768,79.597-130.749,86.847 c-14.716,7.122-30.476,14.076-47.121,14.076l-155.494,0.03C156.752,488.732,156.748,488.732,156.747,488.732z"></path> <rect x="14.35" y="265.452" style="fill:#fdfdfd;" width="84.146" height="189.587"></rect> <g> <path style="fill:#336363;" d="M98.49,469.381H14.35c-7.925,0-14.35-6.424-14.35-14.35V265.45c0-7.925,6.424-14.35,14.35-14.35 h84.14c7.925,0,14.35,6.424,14.35,14.35v189.581C112.84,462.956,106.415,469.381,98.49,469.381z M28.699,440.681H84.14V279.799 H28.699V440.681z"></path> <path style="fill:#336363;" d="M273.037,237.471c-59.056,0-107.103-48.045-107.103-107.103S213.98,23.265,273.037,23.265 S380.14,71.311,380.14,130.368S332.093,237.471,273.037,237.471z M273.037,51.966c-43.231,0-78.403,35.171-78.403,78.403 s35.171,78.403,78.403,78.403s78.403-35.171,78.403-78.403S316.268,51.966,273.037,51.966z"></path> </g> <circle style="fill:#fdfdfd;" cx="348.925" cy="201.869" r="92.756"></circle> <g> <path style="fill:#336363;" d="M348.932,308.969c-59.056,0-107.103-48.045-107.103-107.103S289.875,94.764,348.932,94.764 s107.103,48.045,107.103,107.103S407.988,308.969,348.932,308.969z M348.932,123.463c-43.231,0-78.403,35.171-78.403,78.403 s35.171,78.403,78.403,78.403s78.403-35.171,78.403-78.403S392.164,123.463,348.932,123.463z"></path> <path style="fill:#336363;" d="M345.377,248.147c-15.513-0.517-28.181-8.532-28.181-16.805c0-4.395,3.879-10.858,8.791-10.858 c5.43,0,9.825,7.627,19.391,9.307v-20.942c-11.893-4.524-25.855-10.083-25.855-26.63c0-16.417,12.151-24.304,25.855-26.243v-3.619 c0-1.809,2.068-3.49,4.912-3.49c2.455,0,4.912,1.68,4.912,3.49v3.232c8.014,0.258,23.14,2.327,23.14,11.246 c0,3.491-2.328,10.602-8.016,10.602c-4.266,0-6.723-4.137-15.125-4.783v18.874c11.764,4.395,25.466,10.471,25.466,27.923 c0,16.03-10.342,25.726-25.466,28.181v3.75c0,1.809-2.457,3.49-4.912,3.49c-2.844,0-4.912-1.68-4.912-3.49L345.377,248.147 L345.377,248.147z M346.669,188.422v-15.384c-5.817,1.164-8.274,4.137-8.274,7.239 C338.397,184.027,341.758,186.354,346.669,188.422z M353.909,212.337v17.323c4.395-1.035,7.887-3.491,7.887-8.145 C361.795,217.251,358.562,214.536,353.909,212.337z"></path> </g> </g></svg>         
+            <div class="pt-lg-3 pt-1">
+             <h6>Save Your Maney</h6>
+              <p class="text-secondary ">
+              Lorem ipsum dolor sit amet , consectetur adipiscing elit
+              </p>
+            </div>
+          </div>
+          <div class="col-6 col-md-6">
+           <svg class="svg-lg-larg" fill="#336363" height="45px" width="45px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 503.607 503.607" xml:space="preserve" stroke="#336363" stroke-width="16.619031"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g transform="translate(1 1)"> <g> <path d="M477.426,416.993c-50.095-26.565-88.52-41.461-122.727-47.172l3.54-4.867c1.679-1.679,2.518-4.197,1.679-6.715 l-7.866-31.463c20.804-29.41,33.046-66.178,33.046-101.153v-33.574h8.393h16.787c5.036,0,8.393-3.357,8.393-8.393 s-3.357-8.393-8.393-8.393h-8.393v-8.393c0-66.308-43.646-122.544-109.115-141.01V24.18c0-13.43-10.911-25.18-25.18-25.18h-33.574 c-13.43,0-25.18,10.911-25.18,25.18v1.679c-65.469,18.466-109.115,74.702-109.115,141.01v8.393h-8.393 c-5.036,0-8.393,3.357-8.393,8.393s3.357,8.393,8.393,8.393h16.787h8.393v33.574c0,34.975,12.242,71.743,33.046,101.154 l-7.866,31.463c0,1.679,0,5.036,1.679,6.715l3.54,4.867c-34.206,5.712-72.632,20.607-122.727,47.172 C8.233,424.548-1,440.495-1,458.121v36.092c0,5.036,3.357,8.393,8.393,8.393h201.443h3.357h77.22h3.357h201.443 c5.036,0,8.393-3.357,8.393-8.393v-36.092C502.607,441.334,492.534,425.387,477.426,416.993z M245.77,409.224l5.081-11.432 l12.545,27.6l8.205,18.46h-40.941L245.77,409.224z M224.28,460.639h52.983l4.796,25.18h-62.815L224.28,460.639z M338.934,343.131 l3.357,15.108l-8.574,11.773c-0.547,0.447-1.053,0.989-1.498,1.656l-34.912,48.34l-11.078,15.211l-22.628-50.913 c27.048-3.299,51.193-16.877,70.694-36.39c0.216-0.214,0.433-0.426,0.648-0.642c0.052-0.053,0.104-0.106,0.156-0.159 C336.392,345.818,337.671,344.492,338.934,343.131z M327.999,60.389c0.932,0.62,1.856,1.25,2.77,1.892 c10.699,7.973,20.575,17.313,28.31,27.368l-38.61,7.554L327.999,60.389z M181.138,97.203l-38.61-7.554 c7.735-10.056,17.612-19.396,28.311-27.369c0.913-0.641,1.837-1.271,2.769-1.891L181.138,97.203z M116.508,166.869 c0-22.335,5.623-43.406,15.8-61.82l58.063,11.46c0.839,0,0.839,0,1.679,0c2.518,0,4.197-0.839,6.715-1.679 c2.518-1.679,3.357-5.036,2.518-7.554l-11.523-56.08c6.069-2.92,12.438-5.428,19.077-7.49v22.442c0,5.036,3.357,8.393,8.393,8.393 s8.393-3.357,8.393-8.393V32.574V24.18c0-4.197,3.357-8.393,8.393-8.393h33.574c4.197,0,8.393,3.357,8.393,8.393v8.393v33.574 c0,5.036,3.357,8.393,8.393,8.393c5.036,0,8.393-3.357,8.393-8.393V43.706c6.86,2.13,13.435,4.734,19.685,7.779l-11.291,54.952 c0,2.518,0.839,5.875,2.518,7.554s3.357,2.518,5.875,2.518c0.839,0,0.839,0,1.679,0l57.687-12.145 c10.416,18.576,16.175,39.894,16.175,62.505v8.393h-8.393H124.902h-8.393V166.869z M133.295,192.049h235.016v33.574 c0,36.599-12.555,69.122-31.405,93.843l-0.49,0.163c-0.839,0.839-1.679,1.679-2.518,2.518c-4.223,5.631-8.68,10.765-13.337,15.394 c-19.763,18.412-43.336,29.564-66.05,30.669c-1.143-0.491-2.425-0.738-3.708-0.738c-1.29,0-2.453,0.253-3.496,0.749 c-13.904-0.638-28.134-5.045-41.623-12.584c-13.665-7.851-26.52-19.169-37.977-33.49c-0.839-0.839-1.679-1.679-2.518-2.518 l-0.49-0.163c-18.85-24.722-31.405-57.245-31.405-93.843V192.049z M238.005,384.308l-22.628,50.913l-11.078-15.211l-34.912-48.34 c-0.267-0.267-0.563-0.532-0.869-0.793l-9.203-12.637l3.357-15.108c1.138,1.225,2.292,2.419,3.457,3.594 C185.833,366.877,210.408,380.942,238.005,384.308z M15.787,458.121c0-10.911,5.875-20.984,15.948-26.02 c53.501-28.423,92.015-42.688,126.323-46.949l50.088,68.87l-6.359,31.796H15.787V458.121z M485.82,485.82H299.821l-6.359-31.796 l50.63-69.616c34.188,5.159,73.391,19.413,125.78,46.855c10.072,5.875,15.948,15.948,15.948,26.859V485.82z"></path> </g> </g> </g></svg>     
+            <div class="pt-lg-3 pt-1">
+              <h6> Certified Endineer</h6>
+               <p class="text-secondary ">
+               Lorem ipsum dolor sit amet , consectetur adipiscing elit
+              </p>
+            </div>
+          </div>
+          <!-- Force next columns to break to new line -->
+          <div class="w-100"></div>
+      
+          <div class="col-6 col-md-6" >
+            <svg class="svg-lg-larg" width="45px" height="45px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#336363"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 10H6.75C7.44036 10 8 10.5596 8 11.25V14.75C8 15.4404 7.44036 16 6.75 16H6C4.34315 16 3 14.6569 3 13C3 11.3431 4.34315 10 6 10ZM6 10V9C6 5.68629 8.68629 3 12 3C15.3137 3 18 5.68629 18 9V10M18 10H17.25C16.5596 10 16 10.5596 16 11.25V14.75C16 15.4404 16.5596 16 17.25 16H18M18 10C19.6569 10 21 11.3431 21 13C21 14.6569 19.6569 16 18 16M18 16L17.3787 18.4851C17.1561 19.3754 16.3562 20 15.4384 20H13" stroke="#336363" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            <div class="pt-lg-3 pt-1">
+              <h6>24 X 7 Support</h6>
+                <p class="text-secondary ">
+                Lorem ipsum dolor sit amet , consectetur adipiscing elit
+              </p>
+            </div>
+          </div>
+          <div class="col-6 col-md-6">
+            <svg class="svg-lg-larg" fill="#336363" height="45px" width="45px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 491.52 491.52" xml:space="preserve" stroke="#336363"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <g> <path d="M430.08,20.48h-61.44C368.64,9.169,359.471,0,348.16,0h-204.8c-11.311,0-20.48,9.169-20.48,20.48H61.44 c-11.311,0-20.48,9.169-20.48,20.48v20.48c0,51.869,38.574,94.729,88.597,101.471c9.704,28.167,29.357,51.702,54.763,66.402 V368.64h-0.082c-33.88,0-61.358,27.478-61.358,61.358v20.562H102.4c-11.311,0-20.48,9.169-20.48,20.48s9.169,20.48,20.48,20.48 h40.96h204.8h40.96c11.311,0,20.48-9.169,20.48-20.48s-9.169-20.48-20.48-20.48h-20.48v-20.562 c0-33.88-27.478-61.358-61.358-61.358H307.2V229.313c25.406-14.7,45.06-38.235,54.763-66.402 c50.023-6.742,88.597-49.601,88.597-101.471V40.96C450.56,29.649,441.391,20.48,430.08,20.48z M81.92,61.44h40.96v57.943 C99.018,110.948,81.92,88.189,81.92,61.44z M163.84,40.96h163.84v81.92c0,45.234-36.685,81.92-81.92,81.92 s-81.92-36.686-81.92-81.92V40.96z M327.68,429.998v20.562H163.84v-20.562c0-11.258,9.14-20.398,20.398-20.398h20.36 c0.068,0.001,0.134,0.01,0.202,0.01h81.92c0.068,0,0.134-0.01,0.202-0.01h20.36C318.54,409.6,327.68,418.74,327.68,429.998z M225.28,368.64V245.77h40.96v122.87H225.28z M368.64,119.383V61.44h40.96C409.6,88.189,392.502,110.948,368.64,119.383z"></path> <polygon points="209.101,166.625 245.76,142.766 282.419,166.625 268.431,123.515 305.091,98.263 260.587,98.263 245.76,53.76 231.752,98.263 186.429,98.263 223.089,123.515 "></polygon> </g> </g> </g> </g></svg>
+            <div class="pt-lg-3 pt-1">
+              <h6> Award Winning</h6>
+                <p class="text-secondary ">
+                Lorem ipsum dolor sit amet , consectetur adipiscing elit
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class=" bg-blue my-sm-5 my-3 ">
+    <div class="row py-sm-5 py-4  container mx-auto">
+      <div class="col-8 text-p"> 
+        <h1 class="fs-xl-1 fs-lg-3 fs-md-3 fs-sm-4  h-lg h-md"><span class="text-green">Safest and Swiftest: </span><span class="text-white">Securing Clean, Safe, Renewable Energy</span></h1>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <div>
+        <a  class="bg-green text-white round-25 px-4 btn btn-sm py-2">Dissconver More</a></div>
+      </div>
+    </div>
+  </section>
+  <section class="container my-6 ">
+    <div class="text-center">
+      <small class="text-date mb-3">-  OUR WORK PROCESS</small>
+      <h1 class="text-green">Four Steps Forward:</h1>
+      <h1> Navigating Our Process</h1>
+    </div>
+    <div class="row px-lg-0 px-5 pt-lg-5 my-lg-0 my-5 d-flex justify-content-evenly align-items-start mt-6 mb-xl-5 mb-1">
+      <div class="col-md-4  icon-box ">
+        <svg class="svg-lg" width="38px" height="38px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#fff" fill-rule="evenodd" d="M8 2a1 1 0 0 1 1 1v1H7V3a1 1 0 0 1 1-1zm9 2h1a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h1v3a1 1 0 0 0 2 0V4h2v3a1 1 0 1 0 2 0V4h2v3a1 1 0 1 0 2 0V4zm0 0h-2V3a1 1 0 1 1 2 0v1zm-4 0V3a1 1 0 1 0-2 0v1h2z" clip-rule="evenodd"></path></g></svg>        
+        <span class="counter text-center d-md-block d-none">01</span>
+      </div> 
+      -----------
+      <div class="col-md-4 icon-box ">
+        <svg class="svg-lg" fill="#fff" version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38px" height="38px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M45.414,34.586c-0.78-0.781-2.048-0.781-2.828,0L41,36.172L37.828,33l7-7H48c7.851,0,12-4.841,12-14 c0-0.693-0.359-1.337-0.949-1.701c-0.589-0.365-1.326-0.398-1.946-0.088l-6.71,3.355l-1.961-1.961l3.355-6.71 c0.31-0.62,0.277-1.356-0.088-1.946C51.337,2.359,50.693,2,50,2c-9.159,0-14,4.149-14,12v3.171l-7,7L17.828,13l1.586-1.586 c0.436-0.436,0.646-1.047,0.571-1.658c-0.075-0.611-0.428-1.154-0.956-1.471l-10-6C8.243,1.812,7.235,1.937,6.586,2.586l-2,2 C3.937,5.235,3.813,6.242,4.285,7.029l6,10c0.317,0.528,0.859,0.881,1.471,0.956C11.837,17.995,11.919,18,12,18 c0.527,0,1.037-0.208,1.414-0.586L15,15.828L26.172,27L2.586,50.586c-0.22,0.219-0.385,0.487-0.483,0.782l-2,6 c-0.239,0.719-0.052,1.511,0.483,2.046l2,2C2.967,61.795,3.478,62,4,62c0.211,0,0.425-0.034,0.632-0.103l6-2 c0.295-0.098,0.562-0.264,0.782-0.483L35,35.828L38.172,39l-1.586,1.586c-0.781,0.781-0.781,2.047,0,2.828l18,18 C54.976,61.805,55.488,62,56,62s1.024-0.195,1.414-0.586l6-6c0.781-0.781,0.781-2.047,0-2.828L45.414,34.586z M12.397,12.774 L8.831,6.831l5.943,3.566L12.397,12.774z M8.919,56.252l-4.379,1.46L4.288,57.46l1.46-4.379l33.666-33.667 C39.789,19.039,40,18.53,40,18v-4c0-3.385,0.87-6.835,6.644-7.76l-2.433,4.866c-0.385,0.77-0.234,1.7,0.375,2.309l4,4 c0.609,0.609,1.54,0.76,2.309,0.375l4.866-2.433C54.835,21.13,51.385,22,48,22h-4c-0.53,0-1.039,0.211-1.414,0.586L8.919,56.252z M56,57.171L40.829,42L44,38.829L59.171,54L56,57.171z"></path> </g> </g></svg>
+        <span class="counter text-center d-md-block d-none">02</span>
+      </div>
+     -----------
+      <div class="col-md-4 icon-box ">
+        <svg class="svg-lg" width="38px" height="38px" viewBox="-32 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#fff" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#fff" d="M9.625 157.797C6.125 156.046 3.64583 154.15 2.1875 152.108C0.729167 150.066 0 147.294 0 143.793C0 140.292 0.729167 137.521 2.1875 135.478C3.64583 133.436 6.125 131.54 9.625 129.789L195.417 37.0152C203 33.3198 212.528 31.6666 224 32.0556C235.472 31.6666 245 33.3198 252.583 37.0152L438.375 129.789C441.875 131.54 444.354 133.436 445.812 135.478C447.271 137.521 448 140.292 448 143.793C448 147.294 447.271 150.066 445.812 152.108C444.354 154.15 441.875 156.046 438.375 157.797L252.583 250.571C245 254.266 235.472 255.919 224 255.531C212.528 255.919 203 254.266 195.417 250.571L9.625 157.797ZM9.625 382.439C6.125 380.688 3.64583 378.792 2.1875 376.75C0.729167 374.707 0 371.936 0 368.435C0 364.934 0.729167 362.162 2.1875 360.12C3.64583 358.078 6.125 356.182 9.625 354.431L56.2917 331.092L195.417 400.527C203.194 404.222 212.722 405.778 224 405.195C235.278 405.778 244.806 404.222 252.583 400.527L391.708 331.092L438.375 354.431C441.875 356.182 444.354 358.078 445.812 360.12C447.271 362.162 448 364.934 448 368.435C448 371.936 447.271 374.707 445.812 376.75C444.354 378.792 441.875 380.688 438.375 382.439L252.583 475.213C244.806 478.908 235.278 480.464 224 479.881C212.722 480.464 203.194 478.908 195.417 475.213L9.625 382.439ZM9.625 270.409C6.125 268.659 3.64583 266.763 2.1875 264.72C0.729167 262.678 0 259.907 0 256.406C0 252.905 0.729167 250.133 2.1875 248.091C3.64583 246.049 6.125 244.153 9.625 242.402L56.2917 219.063L195.417 288.497C203.194 292.193 212.722 293.749 224 293.165C235.278 293.749 244.806 292.193 252.583 288.497L391.708 219.063L438.375 242.402C441.875 244.153 444.354 246.049 445.812 248.091C447.271 250.133 448 252.905 448 256.406C448 259.907 447.271 262.678 445.812 264.72C444.354 266.763 441.875 268.659 438.375 270.409L252.583 363.184C244.806 366.879 235.278 368.435 224 367.851C212.722 368.435 203.194 366.879 195.417 363.184L9.625 270.409Z"></path></g></svg>
+        <span class="counter text-center d-md-block d-none ">03</span>
+      </div>
+      -----------
+      <div class="col-md-4 icon-box ">
+        <svg class="svg-lg" fill="#fdfdfd" width="38px" height="38px" viewBox="0 0 32 32" id="OBJECT" xmlns="http://www.w3.org/2000/svg" stroke="#fdfdfd"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title></title><path d="M26,25H19.77V23h-2v2h-4V23h-2v2H6a1,1,0,0,0,0,2H26a1,1,0,0,0,0-2Z"></path><polygon points="20.5 15 19.43 11 12.57 11 11.5 15 20.5 15"></polygon><polygon points="10.5 11 3.53 11 2.39 15 9.43 15 10.5 11"></polygon><polygon points="22.57 15 29.61 15 28.47 11 21.5 11 22.57 15"></polygon><polygon points="10.96 17 9.89 21 22.11 21 21.04 17 10.96 17"></polygon><polygon points="17.82 5 14.18 5 13.11 9 18.89 9 17.82 5"></polygon><path d="M31,19.73,30.18,17H23.11l1.07,4H30a1,1,0,0,0,.8-.4A1,1,0,0,0,31,19.73Z"></path><path d="M27.9,9,27,5.73A1,1,0,0,0,26,5H19.89L21,9Z"></path><path d="M8.89,17H1.82L1,19.73a1,1,0,0,0,.16.87A1,1,0,0,0,2,21H7.82Z"></path><path d="M12.11,5H6a1,1,0,0,0-1,.73L4.1,9H11Z"></path></g></svg>
+        <span class="counter text-center d-md-block d-none">04</span>
+      </div>
+    </div>
+    <div class="row container   text-center">
+      <div class="col-md-3 col-6 mt-3 ">
+        <h5 class="h5">Consult Project</h5>
+        <p class="text-secondary small-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="col-md-3 col-6 mt-3 ">
+        <h5 class="h5">Installation System</h5>
+        <p class="text-secondary small-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="col-md-3 col-6 mt-3 ">
+        <h5 class="h5">Project Executation</h5>
+        <p class="text-secondary small-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="col-md-3 col-6 mt-3">
+        <h5 class="h5">Ready to Use</h5>
+        <p class="text-secondary small-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+  
+    </div>
+  </section>
+  <section class="bg-gray my-6">
+    <div class="container pb-5">
+      <div class="row py-6 ">
+        <div class="col-6  ">
+          <small class="text-date text-date-md mb-3 ">-  OUR LATEST PROJECTS</small>
+          <h1 class="h-md"><span class="text-green">Explore Our Portfolio </span> <br>of Featured Projects</h1>
+        </div>
+        <div class="col-6 d-flex justify-content-end align-items-center">
+          <a  class="bg-green text-white round-25 px-4 btn py-2">View All Projects</a>
+        </div>
+      </div>
+      <div class="row my-lg-5 my-4 p-3 mt-0   bg-white cut-dubble round-25" id="row" >
+        <div class="col-md-6 ps-0 position-relative ">
+          <img src="./img/sss.webp" class="w-100 round-25 cut-top-l img-lg-3" alt=""  height="350px">
+          <div class="d-lg-flex d-none text-img position-absolute " id="text-img">
+            <small class="px-3 py-1">2024</small>
+            <small class="px-3 py-1">Solar Panel Solutation</small>
+            <small class="px-3 py-1">Farm</small>
+          </div>
+        </div>
+        <div class="col-md-6 pt-xl-3 pb-xl-3 pb-0 ps-4 pe-5 p-md-0 p-3">
+          <span class="h1 ">Farm Solar Panel 2024</span>
+          <p class="text-secondary fs-xl-5 small pt-lg-2 pt-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore...  <hr></p>
+          <ul>
+            <li class="py-1  small">
+              <span class="badge p-1 me-1 bg-green rounded-circle">
+              <svg class="svg-lgg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fdfdfd"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2848 18.9935C12.1567 19.0875 12.0373 19.1728 11.9282 19.2493C11.8118 19.1721 11.6827 19.0833 11.5427 18.9832C10.8826 18.5109 10.0265 17.8176 9.18338 16.9529C7.45402 15.1792 6 12.9151 6 10.5C6 7.18629 8.68629 4.5 12 4.5C15.3137 4.5 18 7.18629 18 10.5C18 12.8892 16.4819 15.1468 14.6893 16.9393C13.8196 17.8091 12.9444 18.5099 12.2848 18.9935ZM19.5 10.5C19.5 16.5 12 21 12 21C11.625 21 4.5 16.5 4.5 10.5C4.5 6.35786 7.85786 3 12 3C16.1421 3 19.5 6.35786 19.5 10.5ZM13.5 10.5C13.5 11.3284 12.8284 12 12 12C11.1716 12 10.5 11.3284 10.5 10.5C10.5 9.67157 11.1716 9 12 9C12.8284 9 13.5 9.67157 13.5 10.5ZM15 10.5C15 12.1569 13.6569 13.5 12 13.5C10.3431 13.5 9 12.1569 9 10.5C9 8.84315 10.3431 7.5 12 7.5C13.6569 7.5 15 8.84315 15 10.5Z" fill="#fdfdfd"></path> </g></svg>
+              </span>
+                Location :New York, USA
+            </li>
+            <li class="py-1 small">
+              <span class="badge p-1 me-1 bg-green rounded-circle">
+                <svg class="svg-lgg"  width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#98df3b"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M17.75 2C18.9409 2 19.9156 2.92516 19.9948 4.09595L20 4.25L19.9998 7.76711C19.4726 7.69125 18.9174 7.85612 18.5117 8.26174C18.0501 8.72335 17.8968 9.38484 18.0854 10.0035L18.1397 10.1571L18.182 10.249L16.6565 10.2492C15.8095 10.2491 15.1521 10.8983 15.023 11.7076L15.0058 11.852L15 11.9991C15 12.7979 15.5138 13.5122 16.3332 13.7087L16.4903 13.7394L16.6562 13.7492L18.171 13.749L18.1541 13.7826C17.9459 14.2511 17.9552 14.8006 18.2009 15.2948L18.2915 15.4573L18.3893 15.6005L18.5117 15.7383C18.9107 16.1372 19.459 16.3059 20 16.2226V19.75C20 20.9409 19.0748 21.9156 17.904 21.9948L17.75 22H6.25C5.05914 22 4.08436 21.0748 4.00519 19.904L4 19.75L3.99909 16.2216C4.54031 16.3053 5.08904 16.1367 5.48826 15.7374L5.61072 15.5997L5.70847 15.4565C6.04005 14.9229 6.07719 14.3024 5.84586 13.7818L5.829 13.748L7.34383 13.7484L7.50968 13.7385C8.42 13.6003 9 12.847 9 11.9983L8.99417 11.8512C8.92463 10.9761 8.24036 10.2482 7.34352 10.2484L5.818 10.248L5.86029 10.1563C6.12664 9.49566 5.98833 8.76099 5.48826 8.26092C5.08236 7.85502 4.52667 7.6902 3.99909 7.76645L4 4.25C4 3.05914 4.92516 2.08436 6.09595 2.00519L6.25 2H17.75ZM4.78115 8.96803C5.04742 9.23429 5.07162 9.65096 4.85377 9.94457L4.78115 10.0287L3.56 11.2484H7.34367C7.7061 11.2483 8 11.5841 8 11.9983C8 12.378 7.75319 12.6918 7.43288 12.7415L7.34383 12.7484H3.56L4.78115 13.9697C5.04742 14.2359 5.07162 14.6526 4.85377 14.9462L4.78115 15.0303C4.51488 15.2966 4.09822 15.3208 3.80461 15.1029L3.72049 15.0303L1.35072 12.6631C1.14219 12.5375 1 12.2874 1 11.9993C1 11.7113 1.14201 11.4611 1.35039 11.3355L3.72049 8.96803C4.01338 8.67513 4.48826 8.67513 4.78115 8.96803ZM19.2188 8.96511C19.4851 8.69884 19.9018 8.67464 20.1954 8.89249L20.2795 8.96511L22.6496 11.3325C22.858 11.4582 23 11.7083 23 11.9964C23 12.2485 22.8911 12.4715 22.7242 12.6074L22.6493 12.6602L20.2795 15.0274L20.1954 15.1C19.9344 15.2937 19.5762 15.2961 19.3128 15.1072L19.2188 15.0274L19.1462 14.9433C18.9526 14.6823 18.9502 14.3241 19.1391 14.0607L19.2188 13.9668L20.44 12.7454H16.6562L16.5671 12.7386C16.2468 12.6889 16 12.375 16 11.9953C16 11.6157 16.247 11.3019 16.5673 11.2523L16.6563 11.2454H20.44L19.2188 10.0258L19.1462 9.94165C18.9284 9.64804 18.9526 9.23138 19.2188 8.96511Z" fill="#fdfdfd"></path> </g></svg>              
+              </span>  
+               Total Area : 10,000 square meters         
+            </li>
+            <li class="py-1 small">
+              <span class="badge p-1 me-1 bg-green rounded-circle">
+                <svg class="svg-lgg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fdfdfd"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#fdfdfd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#fdfdfd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+              </span>
+               Client : Private From Owner
+            </li>
+          </ul>
+          <a class="btn text-green pt-1">
+            Learn more
+              <svg class="svg-lg" fill="#98df3b" width="30px" height="30px" viewBox="0 0 24 24" id="right-direction-3" xmlns="http://www.w3.org/2000/svg" class="icon line"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M3,12H16m4.62-.67L17.5,9.25a1,1,0,0,0-1.5.67v4.16a1,1,0,0,0,1.5.67l3.12-2.08A.79.79,0,0,0,20.62,11.33Z" style="fill: none; stroke: #98df3b; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"></path></g></svg>
+          </a>
+        </div>
+      </div>
+      <div class="row my-lg-5 my-4 p-3 bg-white cut-dubble round-25 flex-row-reverse" id="row">
+        <div class="col-md-6 ps-0 position-relative">
+          <img src="./img/panle-home.jpg" class="w-100 round-25 cut-b-r img-lg-3" alt=""  height="350px">
+          <div class="d-lg-flex d-none text-img position-absolute " id="text-img">
+            <small class="px-3 py-1">2024</small>
+            <small class="px-3 py-1">Solar Panel Solutation</small>
+            <small class="px-3 py-1">Home</small>
+          </div>
+        </div>
+        <div class="col-md-6 pt-xl-3 pb-xl-3 pb-0 ps-4 pe-5 p-md-0 p-3">
+          <span class="h1">Home Solar Panel 2024</span>
+          <p class="text-secondary fs-xl-5 small pt-lg-2 pt-1">Lorem ipsum dolor, sit amet consectetur  adipisicing elit, sed do eiusmod tempor incididunt ut labore...  <hr></p>
+          <ul>
+            <li class="py-lg-1 py-0 small">
+              <span class="badge p-1 me-1 bg-green rounded-circle">
+              <svg class="svg-lgg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fdfdfd"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2848 18.9935C12.1567 19.0875 12.0373 19.1728 11.9282 19.2493C11.8118 19.1721 11.6827 19.0833 11.5427 18.9832C10.8826 18.5109 10.0265 17.8176 9.18338 16.9529C7.45402 15.1792 6 12.9151 6 10.5C6 7.18629 8.68629 4.5 12 4.5C15.3137 4.5 18 7.18629 18 10.5C18 12.8892 16.4819 15.1468 14.6893 16.9393C13.8196 17.8091 12.9444 18.5099 12.2848 18.9935ZM19.5 10.5C19.5 16.5 12 21 12 21C11.625 21 4.5 16.5 4.5 10.5C4.5 6.35786 7.85786 3 12 3C16.1421 3 19.5 6.35786 19.5 10.5ZM13.5 10.5C13.5 11.3284 12.8284 12 12 12C11.1716 12 10.5 11.3284 10.5 10.5C10.5 9.67157 11.1716 9 12 9C12.8284 9 13.5 9.67157 13.5 10.5ZM15 10.5C15 12.1569 13.6569 13.5 12 13.5C10.3431 13.5 9 12.1569 9 10.5C9 8.84315 10.3431 7.5 12 7.5C13.6569 7.5 15 8.84315 15 10.5Z" fill="#fdfdfd"></path> </g></svg>
+              </span>
+                Location :New York, USA
+            </li>
+            <li class="py-1 small">
+              <span class="badge p-1 me-1 bg-green rounded-circle">
+                <svg class="svg-lgg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#98df3b"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M17.75 2C18.9409 2 19.9156 2.92516 19.9948 4.09595L20 4.25L19.9998 7.76711C19.4726 7.69125 18.9174 7.85612 18.5117 8.26174C18.0501 8.72335 17.8968 9.38484 18.0854 10.0035L18.1397 10.1571L18.182 10.249L16.6565 10.2492C15.8095 10.2491 15.1521 10.8983 15.023 11.7076L15.0058 11.852L15 11.9991C15 12.7979 15.5138 13.5122 16.3332 13.7087L16.4903 13.7394L16.6562 13.7492L18.171 13.749L18.1541 13.7826C17.9459 14.2511 17.9552 14.8006 18.2009 15.2948L18.2915 15.4573L18.3893 15.6005L18.5117 15.7383C18.9107 16.1372 19.459 16.3059 20 16.2226V19.75C20 20.9409 19.0748 21.9156 17.904 21.9948L17.75 22H6.25C5.05914 22 4.08436 21.0748 4.00519 19.904L4 19.75L3.99909 16.2216C4.54031 16.3053 5.08904 16.1367 5.48826 15.7374L5.61072 15.5997L5.70847 15.4565C6.04005 14.9229 6.07719 14.3024 5.84586 13.7818L5.829 13.748L7.34383 13.7484L7.50968 13.7385C8.42 13.6003 9 12.847 9 11.9983L8.99417 11.8512C8.92463 10.9761 8.24036 10.2482 7.34352 10.2484L5.818 10.248L5.86029 10.1563C6.12664 9.49566 5.98833 8.76099 5.48826 8.26092C5.08236 7.85502 4.52667 7.6902 3.99909 7.76645L4 4.25C4 3.05914 4.92516 2.08436 6.09595 2.00519L6.25 2H17.75ZM4.78115 8.96803C5.04742 9.23429 5.07162 9.65096 4.85377 9.94457L4.78115 10.0287L3.56 11.2484H7.34367C7.7061 11.2483 8 11.5841 8 11.9983C8 12.378 7.75319 12.6918 7.43288 12.7415L7.34383 12.7484H3.56L4.78115 13.9697C5.04742 14.2359 5.07162 14.6526 4.85377 14.9462L4.78115 15.0303C4.51488 15.2966 4.09822 15.3208 3.80461 15.1029L3.72049 15.0303L1.35072 12.6631C1.14219 12.5375 1 12.2874 1 11.9993C1 11.7113 1.14201 11.4611 1.35039 11.3355L3.72049 8.96803C4.01338 8.67513 4.48826 8.67513 4.78115 8.96803ZM19.2188 8.96511C19.4851 8.69884 19.9018 8.67464 20.1954 8.89249L20.2795 8.96511L22.6496 11.3325C22.858 11.4582 23 11.7083 23 11.9964C23 12.2485 22.8911 12.4715 22.7242 12.6074L22.6493 12.6602L20.2795 15.0274L20.1954 15.1C19.9344 15.2937 19.5762 15.2961 19.3128 15.1072L19.2188 15.0274L19.1462 14.9433C18.9526 14.6823 18.9502 14.3241 19.1391 14.0607L19.2188 13.9668L20.44 12.7454H16.6562L16.5671 12.7386C16.2468 12.6889 16 12.375 16 11.9953C16 11.6157 16.247 11.3019 16.5673 11.2523L16.6563 11.2454H20.44L19.2188 10.0258L19.1462 9.94165C18.9284 9.64804 18.9526 9.23138 19.2188 8.96511Z" fill="#fdfdfd"></path> </g></svg>              
+              </span>  
+               Total Area : 10,000 square meters         
+            </li>
+            <li class="py-1 small">
+              <span class="badge p-1 me-1 bg-green rounded-circle">
+                <svg class="svg-lgg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fdfdfd"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#fdfdfd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#fdfdfd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+              </span>
+               Client : Private From Owner
+            </li>
+          </ul>
+          <a class="btn text-green pt-1">
+            Learn more
+              <svg class="svg-lg" fill="#98df3b" width="30px" height="30px" viewBox="0 0 24 24" id="right-direction-3" xmlns="http://www.w3.org/2000/svg" class="icon line"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M3,12H16m4.62-.67L17.5,9.25a1,1,0,0,0-1.5.67v4.16a1,1,0,0,0,1.5.67l3.12-2.08A.79.79,0,0,0,20.62,11.33Z" style="fill: none; stroke: #98df3b; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"></path></g></svg>
+          </a>
+        </div>
+      </div>
+      <div class="row my-lg-5 my-4 p-3 bg-white cut-dubble round-25"id="row" >
+        <div class="col-md-6 ps-0 position-relative">
+          <img src="./img/turb.jpg " class="w-100 round-25 cut-top-l img-lg-3" alt=""  height="350px">
+          <div class="d-lg-flex d-none text-img position-absolute " id="text-img">
+            <small class="px-3 py-1">2024</small>
+            <small class="px-3 py-1">Wind Turbine Servises</small>
+            <small class="px-3 py-1">Farm</small>
+          </div>
+        </div>
+        <div class="col-md-6 pt-xl-3 pb-xl-3 pb-0 ps-4 pe-5 p-md-0 p-3">
+          <span class="h1"> Wind Farm 2024</span>
+          <p class="text-secondary fs-xl-5 pt-lg-2 pt-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore...  <hr></p>
+          <ul >
+            <li class="py-1 small">
+              <span class="badge p-1 me-1 bg-green rounded-circle">
+              <svg class="svg-lgg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fdfdfd"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2848 18.9935C12.1567 19.0875 12.0373 19.1728 11.9282 19.2493C11.8118 19.1721 11.6827 19.0833 11.5427 18.9832C10.8826 18.5109 10.0265 17.8176 9.18338 16.9529C7.45402 15.1792 6 12.9151 6 10.5C6 7.18629 8.68629 4.5 12 4.5C15.3137 4.5 18 7.18629 18 10.5C18 12.8892 16.4819 15.1468 14.6893 16.9393C13.8196 17.8091 12.9444 18.5099 12.2848 18.9935ZM19.5 10.5C19.5 16.5 12 21 12 21C11.625 21 4.5 16.5 4.5 10.5C4.5 6.35786 7.85786 3 12 3C16.1421 3 19.5 6.35786 19.5 10.5ZM13.5 10.5C13.5 11.3284 12.8284 12 12 12C11.1716 12 10.5 11.3284 10.5 10.5C10.5 9.67157 11.1716 9 12 9C12.8284 9 13.5 9.67157 13.5 10.5ZM15 10.5C15 12.1569 13.6569 13.5 12 13.5C10.3431 13.5 9 12.1569 9 10.5C9 8.84315 10.3431 7.5 12 7.5C13.6569 7.5 15 8.84315 15 10.5Z" fill="#fdfdfd"></path> </g></svg>
+              </span>
+                Location :New York, USA
+            </li>
+            <li class="py-1 small">
+              <span class="badge p-1 me-1 bg-green rounded-circle">
+                <svg class="svg-lgg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#98df3b"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M17.75 2C18.9409 2 19.9156 2.92516 19.9948 4.09595L20 4.25L19.9998 7.76711C19.4726 7.69125 18.9174 7.85612 18.5117 8.26174C18.0501 8.72335 17.8968 9.38484 18.0854 10.0035L18.1397 10.1571L18.182 10.249L16.6565 10.2492C15.8095 10.2491 15.1521 10.8983 15.023 11.7076L15.0058 11.852L15 11.9991C15 12.7979 15.5138 13.5122 16.3332 13.7087L16.4903 13.7394L16.6562 13.7492L18.171 13.749L18.1541 13.7826C17.9459 14.2511 17.9552 14.8006 18.2009 15.2948L18.2915 15.4573L18.3893 15.6005L18.5117 15.7383C18.9107 16.1372 19.459 16.3059 20 16.2226V19.75C20 20.9409 19.0748 21.9156 17.904 21.9948L17.75 22H6.25C5.05914 22 4.08436 21.0748 4.00519 19.904L4 19.75L3.99909 16.2216C4.54031 16.3053 5.08904 16.1367 5.48826 15.7374L5.61072 15.5997L5.70847 15.4565C6.04005 14.9229 6.07719 14.3024 5.84586 13.7818L5.829 13.748L7.34383 13.7484L7.50968 13.7385C8.42 13.6003 9 12.847 9 11.9983L8.99417 11.8512C8.92463 10.9761 8.24036 10.2482 7.34352 10.2484L5.818 10.248L5.86029 10.1563C6.12664 9.49566 5.98833 8.76099 5.48826 8.26092C5.08236 7.85502 4.52667 7.6902 3.99909 7.76645L4 4.25C4 3.05914 4.92516 2.08436 6.09595 2.00519L6.25 2H17.75ZM4.78115 8.96803C5.04742 9.23429 5.07162 9.65096 4.85377 9.94457L4.78115 10.0287L3.56 11.2484H7.34367C7.7061 11.2483 8 11.5841 8 11.9983C8 12.378 7.75319 12.6918 7.43288 12.7415L7.34383 12.7484H3.56L4.78115 13.9697C5.04742 14.2359 5.07162 14.6526 4.85377 14.9462L4.78115 15.0303C4.51488 15.2966 4.09822 15.3208 3.80461 15.1029L3.72049 15.0303L1.35072 12.6631C1.14219 12.5375 1 12.2874 1 11.9993C1 11.7113 1.14201 11.4611 1.35039 11.3355L3.72049 8.96803C4.01338 8.67513 4.48826 8.67513 4.78115 8.96803ZM19.2188 8.96511C19.4851 8.69884 19.9018 8.67464 20.1954 8.89249L20.2795 8.96511L22.6496 11.3325C22.858 11.4582 23 11.7083 23 11.9964C23 12.2485 22.8911 12.4715 22.7242 12.6074L22.6493 12.6602L20.2795 15.0274L20.1954 15.1C19.9344 15.2937 19.5762 15.2961 19.3128 15.1072L19.2188 15.0274L19.1462 14.9433C18.9526 14.6823 18.9502 14.3241 19.1391 14.0607L19.2188 13.9668L20.44 12.7454H16.6562L16.5671 12.7386C16.2468 12.6889 16 12.375 16 11.9953C16 11.6157 16.247 11.3019 16.5673 11.2523L16.6563 11.2454H20.44L19.2188 10.0258L19.1462 9.94165C18.9284 9.64804 18.9526 9.23138 19.2188 8.96511Z" fill="#fdfdfd"></path> </g></svg>              
+              </span>  
+               Total Area : 10,000 square meters         
+            </li>
+            <li class="py-1 small">
+              <span class="badge p-1 me-1 bg-green rounded-circle">
+                <svg class="svg-lgg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fdfdfd"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#fdfdfd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#fdfdfd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+              </span>
+               Client : Private From Owner
+            </li>
+          </ul>
+          <a class="btn text-green pt-1">
+            Learn more
+              <svg class="svg-lg" fill="#98df3b" width="30px" height="30px" viewBox="0 0 24 24" id="right-direction-3" xmlns="http://www.w3.org/2000/svg" class="icon line"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M3,12H16m4.62-.67L17.5,9.25a1,1,0,0,0-1.5.67v4.16a1,1,0,0,0,1.5.67l3.12-2.08A.79.79,0,0,0,20.62,11.33Z" style="fill: none; stroke: #98df3b; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"></path></g></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container my-5">
+    <div class="text-center mb-3">
+      <small class="text-date mb-3">-  TISTIMONIAL</small>
+      <h1>What Our <span class="text-green">Client <br> Say About Us</span></h1>
+    </div>
+    <div class="row ">
+      <div class=" col-md-6 py-4  position-relative d-flex justify-content-end">
+        <img src="./img/wommm.jpg " class=" round-25 cut-t-l text-end img" width="450px" height="350" alt="">
+         <div class="circle none-lg rounded-circle bg-blue  position-absolute top-0 end-0 d-flex justify-content-center align-items-center">
+          <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fdfdfd"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM10.6935 15.8458L15.4137 13.059C16.1954 12.5974 16.1954 11.4026 15.4137 10.941L10.6935 8.15419C9.93371 7.70561 9 8.28947 9 9.21316V14.7868C9 15.7105 9.93371 16.2944 10.6935 15.8458Z" fill="#fdfdfd"></path> </g></svg>
+         </div>
+      </div>
+      <div class="col-md-6 py-4 py-lg-5 my-md-4 my-2 ps-4">
+        <div class="d-flex ">
+          <svg width="20px" height="20px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+          <svg width="20px" height="20px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+          <svg width="20px" height="20px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+          <svg width="20px" height="20px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+          <svg width="20px" height="20px" class="mx-1" viewBox="0 -0.5 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"></path> </g></svg>
+           <span class="ms-2">5.0</span>
+        </div>
+        <p class="text-secondary fs-xl-5 pe-5 pt-lg-3 pt-2">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam ram aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+        </p>
+        <span class="bold fs-5"> Bessie Cooper</span>
+        <div class="text-secondary"> Owner, Private ,Home</div>
+        <div class="d-flex pt-2">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#98df3b" width="40px" height="40px" viewBox="0 0 24 24" stroke="#98df3b"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H2v-2h21v2z"></path></g></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#d6d6d6" width="40px" height="40px" viewBox="0 0 24 24" stroke="#d6d6d6"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H2v-2h21v2z"></path></g></svg>         
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#d6d6d6" width="40px" height="40px" viewBox="0 0 24 24" stroke="#d6d6d6"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M23 13H2v-2h21v2z"></path></g></svg>         
+        </div>
+      
+      </div>
+    </div>
+  </section>
+  <section class="bg-blue my-5">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-6  py-5">
+          <form class="form" action="">
+            <div class="row p-sm">
+              <div class="mb-3 position-relative col-6 ">
+                <label for="name" class="form-label text-white ">Your Name </label>
+                <input type="text" class="form-control text-white " id="name" placeholder="Ex.John Doe">
+                <div  class="d-sm-block d-none position-absolute top1  ">
+                  <svg fill="#fff" width="10px" height="10px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>star</title> <path d="M3.488 13.184l6.272 6.112-1.472 8.608 7.712-4.064 7.712 4.064-1.472-8.608 6.272-6.112-8.64-1.248-3.872-7.808-3.872 7.808z"></path> </g></svg>              </div>
+              </div>
+              <div class="mb-3 position-relative col-6 ">
+                <label for="email" class="form-label text-white">Email</label>
+                <input type="email" class="form-control text-white" id="email" placeholder="example@gmail.com">
+                <div  class="d-sm-block d-none position-absolute top2 ">
+                  <svg fill="#fff" width="10px" height="10px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>star</title> <path d="M3.488 13.184l6.272 6.112-1.472 8.608 7.712-4.064 7.712 4.064-1.472-8.608 6.272-6.112-8.64-1.248-3.872-7.808-3.872 7.808z"></path> </g></svg>              </div>
+              </div>
+            </div>
+            <div class="mb-3 position-relative">
+              <label for="Subject" class="form-label text-white">Subject</label>
+              <input type="text" class="form-control text-white" id="Subject" placeholder="Enter Subject">
+              <div  class="d-sm-block d-none position-absolute top3 ">
+                <svg fill="#fff" width="10px" height="10px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>star</title> <path d="M3.488 13.184l6.272 6.112-1.472 8.608 7.712-4.064 7.712 4.064-1.472-8.608 6.272-6.112-8.64-1.248-3.872-7.808-3.872 7.808z"></path> </g></svg>              </div>
+            </div>
+            <div class="mb-3 position-relative">
+              <label for="mass" class="form-label text-white">Your Massage</label>
+              <textarea  class="form-control text-white" id="mass" placeholder="Enter Here..."></textarea>
+              <div  class="d-sm-block d-none position-absolute top4 ">
+                <svg fill="#fff" width="10px" height="10px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>star</title> <path d="M3.488 13.184l6.272 6.112-1.472 8.608 7.712-4.064 7.712 4.064-1.472-8.608 6.272-6.112-8.64-1.248-3.872-7.808-3.872 7.808z"></path> </g></svg>              </div>
+            </div>
+            <button type="submit" class=" mt-md-4 mt-2 px-4 btn bg-green text-white rounded-pill">View All Projects</button>
+          </form>
+        </div>
+        <div class="col-md-6 text-white  py-sm-5 py-4">
+          <small class="text-date mb-3 text-white" > <span class="text-green">-</span> CONTACT US</small>
+          <h1 class="text-white"> Get Your  <span class="text-green">Free <br> Quote Today</span>  </h1>
+          <p class="fs-xl-5 pt-lg-3 pt-2">Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. sed do eiusmod tempor</p>
+          <ul>
+            <li class="d-flex my-lg-3 py-2 mt-1">
+              <div class="circle-small bg-green rounded-circle d-flex justify-content-center align-items-center me-2">
+                <svg class="svg-lgg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M9 16C2.814 9.813 3.11 5.134 5.94 3.012l.627-.467a1.483 1.483 0 0 1 2.1.353l1.579 2.272a1.5 1.5 0 0 1-.25 1.99L8.476 8.474c-.38.329-.566.828-.395 1.301.316.88 1.083 2.433 2.897 4.246 1.814 1.814 3.366 2.581 4.246 2.898.474.17.973-.015 1.302-.396l1.314-1.518a1.5 1.5 0 0 1 1.99-.25l2.276 1.58a1.48 1.48 0 0 1 .354 2.096l-.47.633C19.869 21.892 15.188 22.187 9 16z" fill="#fff"></path></g></svg>
+              </div> 
+              <div><span class="small">+1(406)555-0120</span></div>
+            </li>
+            <li class="d-flex my-lg-3 my-2">
+              <div class="circle-small bg-green rounded-circle d-flex justify-content-center align-items-center me-2">
+                <svg class="svg-lgg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="email"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M7 2.75C5.38503 2.75 3.92465 3.15363 2.86466 4.1379C1.79462 5.13152 1.25 6.60705 1.25 8.5V15.5C1.25 17.393 1.79462 18.8685 2.86466 19.8621C3.92465 20.8464 5.38503 21.25 7 21.25H17C18.615 21.25 20.0754 20.8464 21.1353 19.8621C22.2054 18.8685 22.75 17.393 22.75 15.5V8.5C22.75 6.60705 22.2054 5.13152 21.1353 4.1379C20.0754 3.15363 18.615 2.75 17 2.75H7ZM19.2285 8.3623C19.5562 8.10904 19.6166 7.63802 19.3633 7.31026C19.1101 6.98249 18.6391 6.9221 18.3113 7.17537L12.7642 11.4616C12.3141 11.8095 11.6858 11.8095 11.2356 11.4616L5.6886 7.17537C5.36083 6.9221 4.88982 6.98249 4.63655 7.31026C4.38328 7.63802 4.44367 8.10904 4.77144 8.3623L10.3185 12.6486C11.3089 13.4138 12.691 13.4138 13.6814 12.6486L19.2285 8.3623Z" fill="#fff"></path> </g> </g> </g></svg>             
+              </div> 
+              <div><span class="small">example@gmail.come</span></div>
+            </li>
+            <li class="d-flex ">
+              <div class="circle-small bg-green rounded-circle d-flex justify-content-center align-items-center me-2 my-2">
+                <svg class="svg-lgg" width="20px" height="20px" viewBox="-4 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#fff" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>location</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-106.000000, -413.000000)" fill="#fff"> <path d="M118,422 C116.343,422 115,423.343 115,425 C115,426.657 116.343,428 118,428 C119.657,428 121,426.657 121,425 C121,423.343 119.657,422 118,422 L118,422 Z M118,430 C115.239,430 113,427.762 113,425 C113,422.238 115.239,420 118,420 C120.761,420 123,422.238 123,425 C123,427.762 120.761,430 118,430 L118,430 Z M118,413 C111.373,413 106,418.373 106,425 C106,430.018 116.005,445.011 118,445 C119.964,445.011 130,429.95 130,425 C130,418.373 124.627,413 118,413 L118,413 Z" id="location" sketch:type="MSShapeGroup"> </path> </g> </g> </g></svg>              </div>
+              <div><span class="small" id="line ">2464 Royal Ln. Mesa, New <br> Jersey 45463</span></div> 
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container my-6 mb-5">
+    <div class="text-center">
+      <small class="text-date mb-3 " > - OUR TEAM</small>
+      <h1>Meet Our <span class="text-green">Expert Team</span></h1>
+    </div>
+    <div class="row ">
+      <div class="col-md-4 mt-5">
+        <div class="position-relative">  
+          <img src="./img/ee.jpg" class="w-100 round-25 cut-dubble img-3-lg" height="250px" alt="">     
+          <div class="d-md-flex d-none position-absolute position  ">
+          <div class="circle-small bg-green rounded-circle mx-1 d-flex justify-content-center align-items-center">
+            <svg fill="#fff" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>facebook</title> <path d="M30.996 16.091c-0.001-8.281-6.714-14.994-14.996-14.994s-14.996 6.714-14.996 14.996c0 7.455 5.44 13.639 12.566 14.8l0.086 0.012v-10.478h-3.808v-4.336h3.808v-3.302c-0.019-0.167-0.029-0.361-0.029-0.557 0-2.923 2.37-5.293 5.293-5.293 0.141 0 0.281 0.006 0.42 0.016l-0.018-0.001c1.199 0.017 2.359 0.123 3.491 0.312l-0.134-0.019v3.69h-1.892c-0.086-0.012-0.185-0.019-0.285-0.019-1.197 0-2.168 0.97-2.168 2.168 0 0.068 0.003 0.135 0.009 0.202l-0.001-0.009v2.812h4.159l-0.665 4.336h-3.494v10.478c7.213-1.174 12.653-7.359 12.654-14.814v-0z"></path> </g></svg>          </div>
+          <div class="circle-small bg-green rounded-circle mx-1  d-flex justify-content-center align-items-center">
+            <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M215.2,361.2 c0.1,2.2,0.1,4.5,0.1,6.8c0,69.5-52.9,149.7-149.7,149.7c-29.7,0-57.4-8.7-80.6-23.6c4.1,0.5,8.3,0.7,12.6,0.7 c24.6,0,47.3-8.4,65.3-22.5c-23-0.4-42.5-15.6-49.1-36.5c3.2,0.6,6.5,0.9,9.9,0.9c4.8,0,9.5-0.6,13.9-1.9 C13.5,430-4.6,408.7-4.6,383.2v-0.6c7.1,3.9,15.2,6.3,23.8,6.6c-14.1-9.4-23.4-25.6-23.4-43.8c0-9.6,2.6-18.7,7.1-26.5 c26,31.9,64.7,52.8,108.4,55c-0.9-3.8-1.4-7.8-1.4-12c0-29,23.6-52.6,52.6-52.6c15.1,0,28.8,6.4,38.4,16.6 c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-8.3C234.4,344.5,225.5,353.7,215.2,361.2z"></path> </g></svg>
+          </div>
+          <div class="circle-small bg-green rounded-circle mx-1  d-flex justify-content-center align-items-center">
+            <svg width="20px" height="20px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M8.5 0.5c-4.418 0-8 3.581-8 8 0 3.275 1.97 6.090 4.789 7.327-0.022-0.559-0.005-1.229 0.139-1.837 0.153-0.649 1.029-4.359 1.029-4.359s-0.256-0.511-0.256-1.266c0-1.186 0.688-2.070 1.544-2.070 0.728 0 1.079 0.546 1.079 1.2 0 0.731-0.467 1.826-0.707 2.839-0.2 0.849 0.426 1.541 1.263 1.541 1.516 0 2.537-1.946 2.537-4.253 0-1.753-1.182-3.066-3.329-3.066-2.427 0-3.938 1.811-3.938 3.831 0 0.698 0.205 1.189 0.527 1.569 0.147 0.175 0.168 0.246 0.115 0.446-0.038 0.147-0.127 0.502-0.163 0.642-0.054 0.203-0.218 0.275-0.4 0.201-1.119-0.457-1.639-1.681-1.639-3.057 0-2.272 1.916-4.998 5.718-4.998 3.054 0 5.064 2.211 5.064 4.583 0 3.139-1.745 5.483-4.316 5.483-0.864 0-1.677-0.468-1.955-0.998 0 0-0.464 1.844-0.562 2.199-0.17 0.617-0.502 1.233-0.806 1.714 0.719 0.214 1.479 0.329 2.267 0.329 4.418 0 8-3.581 8-8s-3.582-8-8-8z" fill="#fff"></path> </g></svg>
+          </div>
+          <div class="circle-small bg-green rounded-circle mx-1  d-flex justify-content-center align-items-center">
+            <svg width="19px" height="19px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g fill="none" fill-rule="evenodd"> <path d="m0 0h32v32h-32z"></path> <path d="m17.0830929.03277248c8.1190907 0 14.7619831 6.64289236 14.7619831 14.76198302v2.3064326c0 8.1190906-6.6429288 14.761983-14.7619831 14.761983h-2.3064325c-8.11909069 0-14.76198306-6.6428924-14.76198306-14.761983v-2.3064326c0-8.11909066 6.64289237-14.76198302 14.76198306-14.76198302zm-.8630324 8.0002641-.2053832-.0002641c-1.7102378 0-3.4204757.05652851-3.4204757.05652851-2.4979736 0-4.52299562 2.02501761-4.52299562 4.52298561 0 0-.05191606 1.4685349-.05624239 3.0447858l-.00028625.2060969c0 1.7648596.05652864 3.590089.05652864 3.5900891 0 2.497968 2.02502202 4.5229856 4.52299562 4.5229856 0 0 1.5990132.0565285 3.2508899.0565285 1.7648634 0 3.6466255-.0565285 3.6466255-.0565285 2.4979736 0 4.4664317-1.9684539 4.4664317-4.4664219 0 0 .0565286-1.8046833.0565286-3.5335605l-.0010281-.4057303c-.0076601-1.5511586-.0555357-3.0148084-.0555357-3.0148084 0-2.4979681-1.9684582-4.46642191-4.4664317-4.46642191 0 0-1.6282521-.05209668-3.2716213-.05626441zm-.2053831 1.43969747c1.4024317 0 3.2005639.04637875 3.2005638.04637875 2.0483524 0 3.3130573 1.2647021 3.3130573 3.31305 0 0 .0463789 1.7674322.0463789 3.1541781 0 1.4176885-.0463789 3.2469355-.0463789 3.2469355 0 2.048348-1.2647049 3.31305-3.3130573 3.31305 0 0-1.5901757.0389711-2.9699093.0454662l-.3697206.0009126c-1.3545375 0-3.0049692-.0463788-3.0049692-.0463788-2.0483172 0-3.36958592-1.321301-3.36958592-3.3695785 0 0-.04637885-1.8359078-.04637885-3.2830941 0-1.3545344.04637885-3.061491.04637885-3.061491 0-2.0483479 1.32130402-3.31305 3.36958592-3.31305 0 0 1.7416035-.04637875 3.1440353-.04637875zm-.0000353 2.46195055c-2.2632951 0-4.0980441 1.8347448-4.0980441 4.098035s1.8347489 4.098035 4.0980441 4.098035 4.0980441-1.8347448 4.0980441-4.098035c0-2.2632901-1.8347489-4.098035-4.0980441-4.098035zm0 1.4313625c1.4727754 0 2.6666784 1.1939004 2.6666784 2.6666725s-1.193903 2.6666726-2.6666784 2.6666726c-1.4727401 0-2.6666784-1.1939005-2.6666784-2.6666726s1.1939031-2.6666725 2.6666784-2.6666725zm4.2941322-2.5685935c-.5468547 0-.9902027.4455321-.9902027.9950991 0 .5495671.443348.9950639.9902027.9950639.5468546 0 .9901674-.4454968.9901674-.9950639 0-.5496023-.4433128-.9950991-.9901674-.9950991z" fill="#fff" fill-rule="nonzero"></path> </g> </g></svg>         </div>
+          </div>
+        </div>
+        <div class="text-center my-md-4 my-3">
+          <span class="h5"> Jenny Alexander</span>
+          <p class=" text-secondary">{ CEO, Solar.}</p>
+        </div>
+   
+      </div>
+      <div class="col-md-4 mt-5">
+        <div >  
+          <img src="./img/st0417.jpg" class="w-100 round-25 cut-dubble opject img-3-lg" height="250px" alt="">     
+        </div>
+        <div class="text-center my-md-4 my-3">
+          <span class="h5"> Eleanor Pena</span>
+          <p class=" text-secondary">{ Senior Engineer }</p>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5">
+        <div class="position-relative">  
+          <img src="./img/en.jfif" class="w-100 round-25 cut-dubble img-3-lg" height="250px" alt="">     
+        </div>
+        <div class="text-center my-md-4 my-3">
+          <span class="h5"> Theresa Webb </span>
+          <p class=" text-secondary">{ Senior Engineer }</p>
+        </div>
+   
+      </div>
+    </div>
+  </section>
+  <section class=" bg-gray my-5">
+    <div class="container  py-6">
+      <div class="text-center">
+        <span class=" text-date "><span class="text-green">-</span> PRICING TABLE</span>
+        <h1 class="pt-2"><span class="text-green">Our Pricing </span> Model</h1>
+      </div>
+      <div class="row mt-5 justify-content-evenly">
+        <div class="col-md-3 col-12 bg-white border cut-t-l  mt-6 py-3 px-4 round-25  width">
+          <span class="bold"> Basic</span>
+          <h1 class="pb-lg-3 pb-1 h1-large"> $99.00</h1>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>
+            </div>
+            <div>    
+              <small class="text-secondary small-lg">Lorem ipsum dolor sit amet</small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>
+            </div>
+            <div>    
+              <small class="text-secondary small-lg">Sed ut perspiciatis</small>
+            </div>
+          </div>
+          <div class="d-flex mb -lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>
+            </div>
+            <div>    
+              <small class="text-secondary small-lg">At vero eos et accusamus</small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>
+            </div>
+            <div>    
+              <small class="text-secondary small-lg"> Vitae dicta sunt explicabo</small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>
+            </div>
+            <div>    
+              <small class="text-secondary small-lg"> veritatis et quasi architecto</small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>
+            </div>
+            <div>    
+              <small class="text-secondary small-lg">Beatae vitae dicta sunt</small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>
+            </div>
+            <div>    
+              <small class="text-secondary small-lg">Explicabo . Nemo enim  </small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>
+            </div>
+            <div>    
+              <small class="text-secondary small-lg">Nemo enim opsum voluptatem</small>
+            </div>
+          </div>
+          <div class="d-block bg-blue text-gray text-center rounded-pill py-2 mt-4 mb-2 font-lg">Choose Plan</div>
+        </div>
+        <div class="col-md-3 col-12 bg-blue text-gray border  mt-6 cut-t-l round-25  py-3 px-4  width  ">
+          <span class="bold"> Standard</span>
+          <h1 class="pb-lg-3 pb-1 h1-large "> $199.00</h1>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#336363"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>            </div>
+            <div>    
+              <small class="text-gray small-lg">Lorem ipsum dolor sit amet</small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#336363"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>            </div>
+            <div>    
+              <small class="text-gray small-lg">Sed ut perspiciatis</small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1 ">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#336363"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>            </div>
+            <div>    
+              <small class="text-gray small-lg">At vero eos et accusamus</small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#336363"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>            </div>
+            <div>    
+              <small class="text-gray small-lg"> Vitae dicta sunt explicabo</small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#336363"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>            </div>
+            <div>    
+              <small class="text-gray small-lg"> veritatis et quasi architecto</small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#336363"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>            </div>
+            <div>    
+              <small class="text-gray small-lg">Beatae vitae dicta sunt</small>
+            </div>
+          </div>
+          <div class="d-flex mb-2">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#336363"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>            </div>
+            <div>    
+              <small class="text-gray small-lg">Explicabo . Nemo enim  </small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#336363"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>            </div>
+            <div>    
+              <small class="text-gray small-lg">Nemo enim opsum voluptatem</small>
+            </div>
+          </div>
+          <div class="d-block bg-green text-gray text-center rounded-pill py-2 mt-4 mb-2 font-lg">Choose Plan</div>
+          
+        </div>
+        <div class="col-md-3 col-12 bg-white border cut-t-l  mt-6 py-3 px-4 round-25  width">
+          <span class="bold"> Premium</span>
+          <h1 class="pb-lg-3 pb-1 h1-large"> $299.00</h1>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>
+            </div>
+            <div>    
+              <small class="text-secondary small-lg">Lorem ipsum dolor sit amet</small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>
+            </div>
+            <div>    
+              <small class="text-secondary small-lg">Sed ut perspiciatis</small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>
+            </div>
+            <div>    
+              <small class="text-secondary small-lg">At vero eos et accusamus</small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>
+            </div>
+            <div>    
+              <small class="text-secondary small-lg"> Vitae dicta sunt explicabo</small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>
+            </div>
+            <div>    
+              <small class="text-secondary small-lg"> veritatis et quasi architecto</small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>
+            </div>
+            <div>    
+              <small class="text-secondary small-lg">Beatae vitae dicta sunt</small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>
+            </div>
+            <div>    
+              <small class="text-secondary small-lg">Explicabo . Nemo enim  </small>
+            </div>
+          </div>
+          <div class="d-flex mb-lg-2 mb-1">
+            <div class="me-2">
+              <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM16.0303 8.96967C16.3232 9.26256 16.3232 9.73744 16.0303 10.0303L11.0303 15.0303C10.7374 15.3232 10.2626 15.3232 9.96967 15.0303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5 13.4393L12.7348 11.2045L14.9697 8.96967C15.2626 8.67678 15.7374 8.67678 16.0303 8.96967Z" fill="#98df3b"></path> </g></svg>
+            </div>
+            <div>    
+              <small class="text-secondary small-lg ">Nemo enim opsum voluptatem</small>
+            </div>
+          </div>
+          <div class="d-block bg-blue text-gray text-center rounded-pill py-2 mt-4 mb-2 font-lg">Choose Plan</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container my-5">
+    <div class="row py-sm-5 py-3" >
+      <div class="col-6">
+        <span class=" text-date text-date-md "><span class="text-green">-</span> NEWS & BLOG</span>
+        <h1 class="h-md mt-3"> Our Latest</h1>
+        <h1 class="h-md text-green">News & Blogs</h1>
+      </div>
+      <div class="col-6 d-flex align-items-end  justify-content-end">
+        <div class="btn bg-green text-white px-4 round-25">View All Projects</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4  py-3">
+        <div class="position-relative"> 
+          <img  src="./img/ih.webp" class="img-s cut-dubble round-25 " width="300px" alt="">
+          <div class="d-lg-flex d-none text-img  position-absolute start-0 ps-3">
+            <small class="px-3 py-1">20 Marcg 2024</small>
+            <small class="px-3 py-1"> Solar</small>
+          </div>
+        </div>
+       <div class="py-3 pb-md-3 pb-0">
+         <h3 class="fs-xl-3 fs-lg-4 fs-6 fw-bold" > From Sunlight to Electricity:<br>
+          Understanding Solar Ener...
+          </h3>
+          <p class="text-secondary fs-xl-5">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. sed do eiusmod tempor</p>
+        </div>
+        <a class="text-green text-decoration-underline btn p-0"> Read More</a>
+      </div>
+      <div class="col-md-4  py-3">
+        <div class="position-relative"> 
+          <img src="./img/turbin en.webp" class=" img-s cut-dubble round-25" width="300px" alt="">
+          <div class="d-lg-flex d-none text-img  position-absolute start-0 ps-3">
+            <small class="px-3 py-1">19 March 2024</small>
+            <small class="px-3 py-1"> Wind</small>
+          </div>
+        </div>
+       <div class="py-3  pb-md-3 pb-0">
+         <h3 class="fs-xl-3 fs-lg-4 fs-6  fw-bold"> The Power of Wind:<br>
+         Exploring Renewable En...
+          </h3>
+          <p class="text-secondary fs-xl-5 ">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. sed do eiusmod tempor</p>
+        </div>
+        <a class="text-green text-decoration-underline btn"> Read More</a>
+      </div>
+      <div class="col-md-4  py-3">
+        <div class="position-relative"> 
+          <img src="./img/turbinn.webp" class=" img-s cut-dubble round-25 " width="300px" alt="">
+          <div class="d-lg-flex d-none text-img  position-absolute start-0 ps-3">
+            <small class="px-3 py-1">18 March 2024</small>
+            <small class="px-3 py-1"> Wind</small>
+          </div>
+        </div>
+       <div class="py-3  pb-md-3 pb-0">
+         <h3 class="fs-xl-3 fs-lg-4 fs-6 fw-bold"> Wind Energy Benefits: Why<br>
+         Wind Power Ls a Susta...
+          </h3>
+          <p class="text-secondary fs-xl-5 ">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. sed do eiusmod tempor</p>
+        </div>
+        <a class="text-green text-decoration-underline btn"> Read More</a>
+      </div>
+    </div>
+  </section>
+  <section class="bg-gray my-5 py-6">
+    <div class="text-center">
+      <span class=" text-date "><span class="text-green">-</span> FAQ </span>
+      <h1 class="mt-2">Question? <span class="text-green"> Look here.</span></h1>
+    </div>
+    <div class=" container mt-5">
+      <div class="d-flex justify-content-between bg-white rounded p-3 my-3">
+        <div class=" h5 fw-bold">What arevthe benefits of installing solar panels?
+        </div>
+        <div class=""> 
+          <svg class="w-sm" width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Edit / Add_Plus"> <path id="Vector" d="M6 12H12M12 12H18M12 12V18M12 12V6" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+        </div>
+      </div>
+      <div class="d-flex bg-blue justify-content-between text-white rounded p-3 my-3 "  >
+        <div class=" h5  fw-bold">How do wind turbines generate electricity?
+          <p class="opacity me-5 "> <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit.sed do eiusmod tempor incididunt ut labore et dolor magna
+            aliqua eiusmod tempor incididunt ut labore et dolore mque aliqua</small>
+          </p>
+        </div>
+        <div class="text-green ms-5"> 
+          <svg class="w-sm" fill="#98df3b" width="30px" height="30px" viewBox="-3 0 19 19" xmlns="http://www.w3.org/2000/svg" class="cf-icon-svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12.711 9.182a1.03 1.03 0 0 1-1.03 1.03H1.319a1.03 1.03 0 1 1 0-2.059h10.364a1.03 1.03 0 0 1 1.029 1.03z"></path></g></svg>        </div>
+      </div>
+      <div class="d-flex justify-content-between bg-white rounded p-3 my-3">
+        <div class=" h5 fw-bold">What maintenance is required for solar panels?
+        </div>
+        <div class=""> 
+          <svg class="w-sm" width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Edit / Add_Plus"> <path id="Vector" d="M6 12H12M12 12H18M12 12V18M12 12V6" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between bg-white rounded p-3 my-3">
+        <div class=" h5 fw-bold">Can i use solar panels power my entire home?
+        </div>
+        <div class=""> 
+          <svg class="w-sm" width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Edit / Add_Plus"> <path id="Vector" d="M6 12H12M12 12H18M12 12V18M12 12V6" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between bg-white rounded p-3 my-3">
+        <div class=" h5 fw-bold">Why is renewable energy important?
+        </div>
+        <div class=""> 
+          <svg class="w-sm" width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Edit / Add_Plus"> <path id="Vector" d="M6 12H12M12 12H18M12 12V18M12 12V6" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between bg-white rounded p-3 my-3">
+        <div class="h5 fw-bold">Do I need betteries to store solar energy?
+        </div>
+        <div class=""> 
+          <svg class="w-sm" width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Edit / Add_Plus"> <path id="Vector" d="M6 12H12M12 12H18M12 12V18M12 12V6" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container my-5 py-md-5 py-sm-4 text-center">
+    <span class=" text-date "><span class="text-green">-</span> OUR NEWSLETTER </span>
+    <h1 class=" fs-1 f-sm mt-sm-4 mt-2" >Subscribe for <span class="text-green">exclusive
+    <br>Green enetgy</span> updates! </h1>
+      <form action="">    
+        <div class="d-flex justify-content-center flex-row mt-sm-5 mt-4"> 
+          <div class="border round-25 px-sm-2 px-4 py-sm-2 py-1 d-flex" >
+            <div class="d-sm-block d-none circle-small bg-green rounded-circle  justify-content-between me-2">
+              <svg class="svg-md" width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="email"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M7 2.75C5.38503 2.75 3.92465 3.15363 2.86466 4.1379C1.79462 5.13152 1.25 6.60705 1.25 8.5V15.5C1.25 17.393 1.79462 18.8685 2.86466 19.8621C3.92465 20.8464 5.38503 21.25 7 21.25H17C18.615 21.25 20.0754 20.8464 21.1353 19.8621C22.2054 18.8685 22.75 17.393 22.75 15.5V8.5C22.75 6.60705 22.2054 5.13152 21.1353 4.1379C20.0754 3.15363 18.615 2.75 17 2.75H7ZM19.2285 8.3623C19.5562 8.10904 19.6166 7.63802 19.3633 7.31026C19.1101 6.98249 18.6391 6.9221 18.3113 7.17537L12.7642 11.4616C12.3141 11.8095 11.6858 11.8095 11.2356 11.4616L5.6886 7.17537C5.36083 6.9221 4.88982 6.98249 4.63655 7.31026C4.38328 7.63802 4.44367 8.10904 4.77144 8.3623L10.3185 12.6486C11.3089 13.4138 12.691 13.4138 13.6814 12.6486L19.2285 8.3623Z" fill="#fff"></path> </g> </g> </g></svg>            
+            </div>
+           <input class="w" placeholder="Enter Email Address" type="text">
+          </div>
+          <div>   
+            <button type="submit" class="bg-blue text-white round-25 px-4 py-2 my-1 ms-2 ">Subscribe</button>
+          </div>
+        </div>
+      </form>
+  </section>
+  <section class=" bg-blue text-white">
+    <div class="container">
+      <footer class="pb-5">
+        <div class="row">
+          <div class="py-sm-5 my-4 col-md-4 col-12">
+            <div class="d-flex ">
+              <div class=" me-2 circle-small d-flex justify-content-center align-items-center bg-green rounded-circle">
+                <svg fill="#fff" height="20px" width="20px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M26.9,15.7C26.8,15.3,26.4,15,26,15h-6l3.9-11.7c0.1-0.4,0-0.9-0.4-1.1c-0.4-0.3-0.8-0.2-1.2,0l-17,13 c-0.3,0.3-0.5,0.7-0.3,1.1C5.2,16.7,5.6,17,6,17h6L8.1,28.7c-0.1,0.4,0,0.9,0.4,1.1C8.6,29.9,8.8,30,9,30c0.2,0,0.4-0.1,0.6-0.2 l17-13C26.9,16.5,27.1,16.1,26.9,15.7z"></path> </g></svg>              
+              </div>
+              <div>
+                <h5><span class="text-green">So</span>lar.</h5>
+              </div>
+            </div>
+            <p class="opacity mt-3">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.sed do eiusmod tempor incididunt ut labore et dolor magna
+            aliqua
+            </p>
+            <ul class="nav flex-row mt-3 ">
+              <li class="nav-item me-2"><a href="#" class="nav-link p-0 text-white ">
+                <svg  width="28px" height="28px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20 12.05C19.9813 10.5255 19.5273 9.03809 18.6915 7.76295C17.8557 6.48781 16.673 5.47804 15.2826 4.85257C13.8921 4.2271 12.3519 4.01198 10.8433 4.23253C9.33473 4.45309 7.92057 5.10013 6.7674 6.09748C5.61422 7.09482 4.77005 8.40092 4.3343 9.86195C3.89856 11.323 3.88938 12.8781 4.30786 14.3442C4.72634 15.8103 5.55504 17.1262 6.69637 18.1371C7.83769 19.148 9.24412 19.8117 10.75 20.05V14.38H8.75001V12.05H10.75V10.28C10.7037 9.86846 10.7483 9.45175 10.8807 9.05931C11.0131 8.66687 11.23 8.30827 11.5161 8.00882C11.8022 7.70936 12.1505 7.47635 12.5365 7.32624C12.9225 7.17612 13.3368 7.11255 13.75 7.14003C14.3498 7.14824 14.9482 7.20173 15.54 7.30003V9.30003H14.54C14.3676 9.27828 14.1924 9.29556 14.0276 9.35059C13.8627 9.40562 13.7123 9.49699 13.5875 9.61795C13.4627 9.73891 13.3667 9.88637 13.3066 10.0494C13.2464 10.2125 13.2237 10.387 13.24 10.56V12.07H15.46L15.1 14.4H13.25V20C15.1399 19.7011 16.8601 18.7347 18.0985 17.2761C19.3369 15.8175 20.0115 13.9634 20 12.05Z" fill="#fff"></path> </g></svg>
+              </a></li>
+              <li class="nav-item me-3"><a href="#" class="nav-link p-0 text-white">
+                <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M215.2,361.2 c0.1,2.2,0.1,4.5,0.1,6.8c0,69.5-52.9,149.7-149.7,149.7c-29.7,0-57.4-8.7-80.6-23.6c4.1,0.5,8.3,0.7,12.6,0.7 c24.6,0,47.3-8.4,65.3-22.5c-23-0.4-42.5-15.6-49.1-36.5c3.2,0.6,6.5,0.9,9.9,0.9c4.8,0,9.5-0.6,13.9-1.9 C13.5,430-4.6,408.7-4.6,383.2v-0.6c7.1,3.9,15.2,6.3,23.8,6.6c-14.1-9.4-23.4-25.6-23.4-43.8c0-9.6,2.6-18.7,7.1-26.5 c26,31.9,64.7,52.8,108.4,55c-0.9-3.8-1.4-7.8-1.4-12c0-29,23.6-52.6,52.6-52.6c15.1,0,28.8,6.4,38.4,16.6 c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-8.3C234.4,344.5,225.5,353.7,215.2,361.2z"></path> </g></svg>
+              </a></li>
+              <li class="nav-item me-3"><a href="#" class="nav-link p-0 text-white">
+                <svg fill="#fff" width="20px" height="20px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>Pinterest icon</title><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"></path></g></svg>              
+              </a></li>
+              <li class="nav-item me-3"><a href="#" class="nav-link p-0 text-white">
+                <svg width="20px" height="20px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g fill="none" fill-rule="evenodd"> <path d="m0 0h32v32h-32z"></path> <path d="m17.0830929.03277248c8.1190907 0 14.7619831 6.64289236 14.7619831 14.76198302v2.3064326c0 8.1190906-6.6429288 14.761983-14.7619831 14.761983h-2.3064325c-8.11909069 0-14.76198306-6.6428924-14.76198306-14.761983v-2.3064326c0-8.11909066 6.64289237-14.76198302 14.76198306-14.76198302zm-.8630324 8.0002641-.2053832-.0002641c-1.7102378 0-3.4204757.05652851-3.4204757.05652851-2.4979736 0-4.52299562 2.02501761-4.52299562 4.52298561 0 0-.05191606 1.4685349-.05624239 3.0447858l-.00028625.2060969c0 1.7648596.05652864 3.590089.05652864 3.5900891 0 2.497968 2.02502202 4.5229856 4.52299562 4.5229856 0 0 1.5990132.0565285 3.2508899.0565285 1.7648634 0 3.6466255-.0565285 3.6466255-.0565285 2.4979736 0 4.4664317-1.9684539 4.4664317-4.4664219 0 0 .0565286-1.8046833.0565286-3.5335605l-.0010281-.4057303c-.0076601-1.5511586-.0555357-3.0148084-.0555357-3.0148084 0-2.4979681-1.9684582-4.46642191-4.4664317-4.46642191 0 0-1.6282521-.05209668-3.2716213-.05626441zm-.2053831 1.43969747c1.4024317 0 3.2005639.04637875 3.2005638.04637875 2.0483524 0 3.3130573 1.2647021 3.3130573 3.31305 0 0 .0463789 1.7674322.0463789 3.1541781 0 1.4176885-.0463789 3.2469355-.0463789 3.2469355 0 2.048348-1.2647049 3.31305-3.3130573 3.31305 0 0-1.5901757.0389711-2.9699093.0454662l-.3697206.0009126c-1.3545375 0-3.0049692-.0463788-3.0049692-.0463788-2.0483172 0-3.36958592-1.321301-3.36958592-3.3695785 0 0-.04637885-1.8359078-.04637885-3.2830941 0-1.3545344.04637885-3.061491.04637885-3.061491 0-2.0483479 1.32130402-3.31305 3.36958592-3.31305 0 0 1.7416035-.04637875 3.1440353-.04637875zm-.0000353 2.46195055c-2.2632951 0-4.0980441 1.8347448-4.0980441 4.098035s1.8347489 4.098035 4.0980441 4.098035 4.0980441-1.8347448 4.0980441-4.098035c0-2.2632901-1.8347489-4.098035-4.0980441-4.098035zm0 1.4313625c1.4727754 0 2.6666784 1.1939004 2.6666784 2.6666725s-1.193903 2.6666726-2.6666784 2.6666726c-1.4727401 0-2.6666784-1.1939005-2.6666784-2.6666726s1.1939031-2.6666725 2.6666784-2.6666725zm4.2941322-2.5685935c-.5468547 0-.9902027.4455321-.9902027.9950991 0 .5495671.443348.9950639.9902027.9950639.5468546 0 .9901674-.4454968.9901674-.9950639 0-.5496023-.4433128-.9950991-.9901674-.9950991z" fill="#fff" fill-rule="nonzero"></path> </g> </g></svg>
+              </a></li>
+              <li class="nav-item me-3"><a href="#" class="nav-link p-0 text-white">
+                <svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <polygon points="78.9,450.3 162.7,401.1 78.9,351.9 "></polygon> <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M241,446.8L241,446.8 c0,44.1-44.1,44.1-44.1,44.1H29.1c-44.1,0-44.1-44.1-44.1-44.1v-91.5c0-44.1,44.1-44.1,44.1-44.1h167.8c44.1,0,44.1,44.1,44.1,44.1 V446.8z"></path> </g> </g></svg>
+              </a></li>
+            </ul>
+          </div>
+    
+          <div class=" py-md-5 py-0 col-md-2 col-sm-4 col-6">
+            <h5 class="fs-lg-5 fs-6">Company</h5>
+            <ul class="nav flex-column mt-3">
+              <li class="nav-item mb-sm-2"><a href="#" class="nav-link p-0 text-white opacity font-lg">Our Team</a></li>
+              <li class="nav-item mb-sm-2"><a href="#" class="nav-link p-0 text-white opacity font-lg">Pricing</a></li>
+              <li class="nav-item mb-sm-2"><a href="#" class="nav-link p-0 text-white opacity font-lg">Testimonial</a></li>
+              <li class="nav-item mb-sm-2"><a href="#" class="nav-link p-0 text-white opacity font-lg">FAQs</a></li>
+              <li class="nav-item mb-sm-2"><a href="#" class="nav-link p-0 text-white opacity font-lg">Contact Us</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-md-2 col-sm-4 col-6 py-md-5 py-0">
+            <h5 class="fs-lg-5 fs-6">Contact</h5>
+            <ul class="nav flex-column mt-3">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white opacity small">+1(406) 555-0120</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white opacity small ">example@gmail.com</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white opacity line small">2464 Royal Ln. Mesa, <br>New Jersey 45463</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-sm-4 d-sm-block d-none py-md-5 py-0">
+            <form class=" ms-lg-0 ms-3">
+              <h5 class="fs-lg-5 fs-6">Get the latest information</h5>
+              <div class="d-flex  w-100  mt-4">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control b-r-end bg border-0" placeholder="Email address">
+                <button class="p-2 bg-green rounded-end "type="button"><svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6.99811 10.2467L7.43298 11.0077C7.70983 11.4922 7.84825 11.7344 7.84825 12C7.84825 12.2656 7.70983 12.5078 7.43299 12.9923L7.43298 12.9923L6.99811 13.7533C5.75981 15.9203 5.14066 17.0039 5.62348 17.5412C6.1063 18.0785 7.24961 17.5783 9.53623 16.5779L15.8119 13.8323C17.6074 13.0468 18.5051 12.654 18.5051 12C18.5051 11.346 17.6074 10.9532 15.8119 10.1677L9.53624 7.4221C7.24962 6.42171 6.1063 5.92151 5.62348 6.45883C5.14066 6.99615 5.75981 8.07966 6.99811 10.2467Z" fill="#fff"></path> </g></svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+      
+      </footer>
+    </div>
+  </section> 
+       <div class="d-sm-block d-none bg-green text-white py-3   pb-0">
+          <div class="container d-flex justify-content-between">
+            <div><p> Copyright © 2024 Solar. All Rights Reserved.</p></div>
+            <div><p>User Terms & Conditions | Privacy Policy</p></div>
+          </div>
+        </div>
+  <script src="./js/app.js"></script>
+</body>
+</html>
